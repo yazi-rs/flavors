@@ -1,0 +1,145 @@
+# vim:fileencoding=utf-8:foldmethod=marker
+
+# : Manager {{{
+
+[manager]
+cwd = { fg = "{{ teal }}" }
+
+# Hovered
+hovered         = { fg = "{{ base }}", bg = "{{ blue }}" }
+preview_hovered = { underline = true }
+
+# Find
+find_keyword  = { fg = "{{ yellow }}", italic = true }
+find_position = { fg = "{{ pink }}", bg = "reset", italic = true }
+
+# Marker
+marker_selected = { fg = "{{ green }}", bg = "{{ green }}" }
+marker_copied   = { fg = "{{ yellow }}", bg = "{{ yellow }}" }
+marker_cut      = { fg = "{{ red }}", bg = "{{ red }}" }
+
+# Tab
+tab_active   = { fg = "{{ base }}", bg = "{{ blue }}" }
+tab_inactive = { fg = "{{ text }}", bg = "{{ surface1 }}" }
+tab_width    = 1
+
+# Border
+border_symbol = "│"
+border_style  = { fg = "{{ overlay1 }}" }
+
+# Highlighting
+syntect_theme = "~/.config/bat/themes/Catppuccin-{{ variant }}.tmTheme"
+
+# : }}}
+
+
+# : Status {{{
+
+[status]
+separator_open  = ""
+separator_close = ""
+separator_style = { fg = "{{ surface1 }}", bg = "{{ surface1 }}" }
+
+# Mode
+mode_normal = { fg = "{{ base }}", bg = "{{ blue }}", bold = true }
+mode_select = { fg = "{{ base }}", bg = "{{ green }}", bold = true }
+mode_unset  = { fg = "{{ base }}", bg = "{{ flamingo }}", bold = true }
+
+# Progress
+progress_label  = { fg = "#ffffff", bold = true }
+progress_normal = { fg = "{{ blue }}", bg = "{{ surface1 }}" }
+progress_error  = { fg = "{{ red }}", bg = "{{ surface1 }}" }
+
+# Permissions
+permissions_t = { fg = "{{ blue }}" }
+permissions_r = { fg = "{{ yellow }}" }
+permissions_w = { fg = "{{ red }}" }
+permissions_x = { fg = "{{ green }}" }
+permissions_s = { fg = "{{ overlay1 }}" }
+
+# : }}}
+
+
+# : Input {{{
+
+[input]
+border   = { fg = "{{ blue }}" }
+title    = {}
+value    = {}
+selected = { reversed = true }
+
+# : }}}
+
+
+# : Select {{{
+
+[select]
+border   = { fg = "{{ blue }}" }
+active   = { fg = "{{ pink }}" }
+inactive = {}
+
+# : }}}
+
+
+# : Tasks {{{
+
+[tasks]
+border  = { fg = "{{ blue }}" }
+title   = {}
+hovered = { underline = true }
+
+# : }}}
+
+
+# : Which {{{
+
+[which]
+mask            = { bg = "{{ surface0 }}" }
+cand            = { fg = "{{ teal }}" }
+rest            = { fg = "{{ overlay2 }}" }
+desc            = { fg = "{{ pink }}" }
+separator       = "  "
+separator_style = { fg = "{{ surface2 }}" }
+
+# : }}}
+
+
+# : Help {{{
+
+[help]
+on      = { fg = "{{ pink }}" }
+exec    = { fg = "{{ teal }}" }
+desc    = { fg = "{{ overlay2 }}" }
+hovered = { bg = "{{ surface2 }}", bold = true }
+footer  = { fg = "{{ surface1 }}", bg = "{{ text }}" }
+
+# : }}}
+
+
+# : File-specific styles {{{
+
+[filetype]
+
+rules = [
+	# Images
+	{ mime = "image/*", fg = "{{ teal }}" },
+
+	# Videos
+	{ mime = "video/*", fg = "{{ yellow }}" },
+	{ mime = "audio/*", fg = "{{ yellow }}" },
+
+	# Archives
+	{ mime = "application/zip",             fg = "{{ pink }}" },
+	{ mime = "application/gzip",            fg = "{{ pink }}" },
+	{ mime = "application/x-tar",           fg = "{{ pink }}" },
+	{ mime = "application/x-bzip",          fg = "{{ pink }}" },
+	{ mime = "application/x-bzip2",         fg = "{{ pink }}" },
+	{ mime = "application/x-7z-compressed", fg = "{{ pink }}" },
+	{ mime = "application/x-rar",           fg = "{{ pink }}" },
+
+	# Fallback
+	{ name = "*", fg = "{{ text }}" },
+	{ name = "*/", fg = "{{ blue }}" }
+]
+
+# : }}}
