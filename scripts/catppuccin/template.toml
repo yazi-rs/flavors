@@ -28,7 +28,7 @@ border_symbol = "│"
 border_style  = { fg = "{{ overlay1 }}" }
 
 # Highlighting
-syntect_theme = "~/.config/bat/themes/Catppuccin-{{ variant }}.tmTheme"
+syntect_theme = "~/.config/yazi/Catppuccin-{{ variant }}.tmTheme"
 
 # : }}}
 

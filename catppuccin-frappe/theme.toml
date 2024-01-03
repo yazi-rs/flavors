@@ -28,7 +28,7 @@ border_symbol = "│"
 border_style  = { fg = "#838ba7" }
 
 # Highlighting
-syntect_theme = "~/.config/bat/themes/Catppuccin-frappe.tmTheme"
+syntect_theme = "~/.config/yazi/Catppuccin-frappe.tmTheme"
 
 # : }}}
 
