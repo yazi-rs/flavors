@@ -20,3 +20,7 @@ Pick your preferred theme file, copy it as `~/.config/yazi/theme.toml` or `C:\Us
 ## [Catppuccin Macchiato](./catppuccin-macchiato)
 
 <img src="./catppuccin-macchiato/screenshot.png" width="600" />
+
+## [Crystal](https://github.com/sachinsenal0x64/crystal-theme)
+
+<img src="https://github.com/sachinsenal0x64/themes/assets/17523360/e5d51ea1-6466-4dea-ad74-a9a94438219e" width="600" />
