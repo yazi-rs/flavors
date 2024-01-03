@@ -2,24 +2,21 @@
 
 Pick your preferred theme file, copy it as `~/.config/yazi/theme.toml` or `C:\Users\YourName\AppData\Roaming\yazi\config\theme.toml`.
 
-## Catppuccin
+> [!NOTE]
+> If you've created a theme for Yazi, please raise a PR to add your repo to the `README.md`.
 
-- [Frappe](./catppuccin-frappe)
+## [Catppuccin Mocha](./catppuccin-mocha)
 
-  <img src="./catppuccin-frappe/screenshot.png" width="400" />
+<img src="./catppuccin-mocha/screenshot.png" width="600" />
 
-- [Latte](./catppuccin-latte)
+## [Catppuccin Latte](./catppuccin-latte)
 
-  <img src="./catppuccin-latte/screenshot.png" width="400" />
+<img src="./catppuccin-latte/screenshot.png" width="600" />
 
-- [Macchiato](./catppuccin-macchiato)
+## [Catppuccin Frappe](./catppuccin-frappe)
 
-  <img src="./catppuccin-macchiato/screenshot.png" width="400" />
+<img src="./catppuccin-frappe/screenshot.png" width="600" />
 
-- [Mocha](./catppuccin-mocha)
+## [Catppuccin Macchiato](./catppuccin-macchiato)
 
-  <img src="./catppuccin-mocha/screenshot.png" width="400" />
-
-## Contributing
-
-If you've created a theme for Yazi, please raise a PR to add your repo to the `README.md`.
+<img src="./catppuccin-macchiato/screenshot.png" width="600" />
