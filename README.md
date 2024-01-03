@@ -4,11 +4,18 @@ Pick your preferred theme file, copy it as `~/.config/yazi/theme.toml` or `C:\Us
 
 ## Catppuccin
 
-- [Frappe](./catppuccin/frappe.toml)
-- [Latte](./catppuccin/latte.toml)
-- [Macchiato](./catppuccin/macchiato.toml)
-- [Mocha](./catppuccin/mocha.toml)
+- [Frappe](./catppuccin-frappe)
+  <img src="./catppuccin-frappe/screenshot.png" width="400" />
+
+- [Latte](./catppuccin-latte)
+  <img src="./catppuccin-latte/screenshot.png" width="400" />
+
+- [Macchiato](./catppuccin-macchiato)
+  <img src="./catppuccin-macchiato/screenshot.png" width="400" />
+
+- [Mocha](./catppuccin-mocha)
+  <img src="./catppuccin-mocha/screenshot.png" width="400" />
 
 ## Contributing
 
-If you've created a theme for Yazi, please create a PR to add your repo URL to the README.
+If you've created a theme for Yazi, please raise a PR to add your repo to the `README.md`.
