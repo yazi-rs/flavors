@@ -23,4 +23,4 @@ Pick your preferred theme file, copy it as `~/.config/yazi/theme.toml` or `C:\Us
 
 ## [Crystal](https://github.com/sachinsenal0x64/crystal-theme)
 
-<img src="https://github.com/sachinsenal0x64/themes/assets/17523360/e5d51ea1-6466-4dea-ad74-a9a94438219e" width="600" />
+<img src="https://raw.githubusercontent.com/sachinsenal0x64/crystal-theme/main/screenshot.png" width="600" />
