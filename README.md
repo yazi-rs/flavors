@@ -32,3 +32,7 @@ Pick your preferred theme file, copy it as `~/.config/yazi/theme.toml` or `C:\Us
 ## [Flexoki](https://github.com/Reledia/flexoki.yazi)
 
 <img src="https://raw.githubusercontent.com/Reledia/flexoki.yazi/main/preview.png" width="600" />
+
+## [Rosé Pine](https://github.com/Msouza91/rose-pine.yazi)
+
+<img src="https://raw.githubusercontent.com/Msouza91/rose-pine.yazi/main/code-preview.png" width="600" />
