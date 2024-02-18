@@ -14,14 +14,20 @@ find_keyword  = { fg = "#df8e1d", italic = true }
 find_position = { fg = "#ea76cb", bg = "reset", italic = true }
 
 # Marker
-marker_selected = { fg = "#40a02b", bg = "#40a02b" }
-marker_copied   = { fg = "#df8e1d", bg = "#df8e1d" }
+marker_copied   = { fg = "#40a02b", bg = "#40a02b" }
 marker_cut      = { fg = "#d20f39", bg = "#d20f39" }
+marker_marked   = { fg = "#df8e1d", bg = "#df8e1d" }
+marker_selected = { fg = "#1e66f5", bg = "#1e66f5" }
 
 # Tab
-tab_active   = { fg = "#eff1f5", bg = "#1e66f5" }
+tab_active   = { fg = "#eff1f5", bg = "#4c4f69" }
 tab_inactive = { fg = "#4c4f69", bg = "#bcc0cc" }
 tab_width    = 1
+
+# Count
+count_copied   = { fg = "#eff1f5", bg = "#40a02b" }
+count_cut      = { fg = "#eff1f5", bg = "#d20f39" }
+count_selected = { fg = "#eff1f5", bg = "#1e66f5" }
 
 # Border
 border_symbol = "│"

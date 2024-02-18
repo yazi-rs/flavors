@@ -14,14 +14,20 @@ find_keyword  = { fg = "{{ yellow }}", italic = true }
 find_position = { fg = "{{ pink }}", bg = "reset", italic = true }
 
 # Marker
-marker_selected = { fg = "{{ green }}", bg = "{{ green }}" }
-marker_copied   = { fg = "{{ yellow }}", bg = "{{ yellow }}" }
+marker_copied   = { fg = "{{ green }}", bg = "{{ green }}" }
 marker_cut      = { fg = "{{ red }}", bg = "{{ red }}" }
+marker_marked   = { fg = "{{ yellow }}", bg = "{{ yellow }}" }
+marker_selected = { fg = "{{ blue }}", bg = "{{ blue }}" }
 
 # Tab
-tab_active   = { fg = "{{ base }}", bg = "{{ blue }}" }
+tab_active   = { fg = "{{ base }}", bg = "{{ text }}" }
 tab_inactive = { fg = "{{ text }}", bg = "{{ surface1 }}" }
 tab_width    = 1
+
+# Count
+count_copied   = { fg = "{{ base }}", bg = "{{ green }}" }
+count_cut      = { fg = "{{ base }}", bg = "{{ red }}" }
+count_selected = { fg = "{{ base }}", bg = "{{ blue }}" }
 
 # Border
 border_symbol = "│"
