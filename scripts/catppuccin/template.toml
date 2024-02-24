@@ -6,12 +6,12 @@
 cwd = { fg = "{{ teal }}" }
 
 # Hovered
-hovered         = { fg = "{{ base }}", bg = "{{ blue }}" }
+hovered         = { reversed = true }
 preview_hovered = { underline = true }
 
 # Find
-find_keyword  = { fg = "{{ yellow }}", italic = true }
-find_position = { fg = "{{ pink }}", bg = "reset", italic = true }
+find_keyword  = { fg = "{{ yellow }}", bold = true, italic = true, underline = true }
+find_position = { fg = "{{ pink }}", bg = "reset", bold = true, italic = true }
 
 # Marker
 marker_copied   = { fg = "{{ green }}", bg = "{{ green }}" }

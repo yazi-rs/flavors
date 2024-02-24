@@ -6,12 +6,12 @@
 cwd = { fg = "#179299" }
 
 # Hovered
-hovered         = { fg = "#eff1f5", bg = "#1e66f5" }
+hovered         = { reversed = true }
 preview_hovered = { underline = true }
 
 # Find
-find_keyword  = { fg = "#df8e1d", italic = true }
-find_position = { fg = "#ea76cb", bg = "reset", italic = true }
+find_keyword  = { fg = "#df8e1d", bold = true, italic = true, underline = true }
+find_position = { fg = "#ea76cb", bg = "reset", bold = true, italic = true }
 
 # Marker
 marker_copied   = { fg = "#40a02b", bg = "#40a02b" }
