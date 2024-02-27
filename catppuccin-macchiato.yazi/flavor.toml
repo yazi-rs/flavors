@@ -33,9 +33,6 @@ count_selected = { fg = "#24273a", bg = "#8aadf4" }
 border_symbol = "│"
 border_style  = { fg = "#8087a2" }
 
-# Highlighting
-syntect_theme = "~/.config/yazi/Catppuccin-macchiato.tmTheme"
-
 # : }}}
 
 

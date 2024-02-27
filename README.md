@@ -5,21 +5,21 @@ Pick your preferred theme file, copy it as `~/.config/yazi/theme.toml` or `C:\Us
 > [!TIP]
 > If you've created a theme for Yazi, please raise a PR to add your repo to the `README.md`.
 
-## [Catppuccin Mocha](./catppuccin-mocha)
+## [Catppuccin Mocha](./catppuccin-mocha.yazi)
 
-<img src="./catppuccin-mocha/screenshot.png" width="600" />
+<img src="./catppuccin-mocha.yazi/screenshot.png" width="600" />
 
-## [Catppuccin Latte](./catppuccin-latte)
+## [Catppuccin Latte](./catppuccin-latte.yazi)
 
-<img src="./catppuccin-latte/screenshot.png" width="600" />
+<img src="./catppuccin-latte.yazi/screenshot.png" width="600" />
 
-## [Catppuccin Frappe](./catppuccin-frappe)
+## [Catppuccin Frappe](./catppuccin-frappe.yazi)
 
-<img src="./catppuccin-frappe/screenshot.png" width="600" />
+<img src="./catppuccin-frappe.yazi/screenshot.png" width="600" />
 
-## [Catppuccin Macchiato](./catppuccin-macchiato)
+## [Catppuccin Macchiato](./catppuccin-macchiato.yazi)
 
-<img src="./catppuccin-macchiato/screenshot.png" width="600" />
+<img src="./catppuccin-macchiato.yazi/screenshot.png" width="600" />
 
 ## [Crystal](https://github.com/sachinsenal0x64/crystal-theme)
 
