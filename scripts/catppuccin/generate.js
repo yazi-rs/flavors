@@ -9,13 +9,13 @@ const template = await readFile(join(__dirname, "./template.toml"), "utf8")
 const readme = await readFile(join(__dirname, "./README.md"), "utf8")
 
 for (const variant of Object.keys(variants)) {
-	// theme.toml
-	let theme = template
+	// flavor.toml
+	let flavor = template
 	for (const [name, color] of Object.entries(colors)) {
-		theme = theme.replaceAll(`{{ ${name} }}`, color[variant].hex)
+		flavor = flavor.replaceAll(`{{ ${name} }}`, color[variant].hex)
 	}
-	theme = theme.replaceAll("{{ variant }}", variant)
-	await writeFile(join(__dirname, `../../catppuccin-${variant}.yazi/theme.toml`), theme)
+	flavor = flavor.replaceAll("{{ variant }}", variant)
+	await writeFile(join(__dirname, `../../catppuccin-${variant}.yazi/flavor.toml`), flavor)
 
 	// README.md
 	await writeFile(

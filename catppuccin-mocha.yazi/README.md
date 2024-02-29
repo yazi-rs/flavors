@@ -22,12 +22,12 @@ Download and copy this folder as:
 Add these lines to your `theme.toml` configuration file to use it:
 
 ```toml
-[flavors]
+[flavor]
 use = "catppuccin-mocha"
 ```
 
 ## 📜 License
 
-The theme is MIT-licensed, and the included tmTheme is also MIT-licensed.
+The flavor is MIT-licensed, and the included tmTheme is also MIT-licensed.
 
 Check the [LICENSE](LICENSE) and [LICENSE-tmtheme](LICENSE-tmtheme) file for more details.
