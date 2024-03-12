@@ -114,7 +114,7 @@ separator_style = { fg = "#585b70" }
 
 [help]
 on      = { fg = "#f5c2e7" }
-exec    = { fg = "#94e2d5" }
+run     = { fg = "#94e2d5" }
 desc    = { fg = "#9399b2" }
 hovered = { bg = "#585b70", bold = true }
 footer  = { fg = "#45475a", bg = "#cdd6f4" }

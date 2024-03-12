@@ -114,7 +114,7 @@ separator_style = { fg = "{{ surface2 }}" }
 
 [help]
 on      = { fg = "{{ pink }}" }
-exec    = { fg = "{{ teal }}" }
+run     = { fg = "{{ teal }}" }
 desc    = { fg = "{{ overlay2 }}" }
 hovered = { bg = "{{ surface2 }}", bold = true }
 footer  = { fg = "{{ surface1 }}", bg = "{{ text }}" }
