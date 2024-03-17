@@ -1,3 +1,9 @@
+# Flavors
+
+FIXME: Add a description
+
+Will be updated soon once I get some free time.
+
 # Themes
 
 Pick your preferred theme file, copy it as `~/.config/yazi/theme.toml` or `C:\Users\YourName\AppData\Roaming\yazi\config\theme.toml`.
