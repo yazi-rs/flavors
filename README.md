@@ -45,6 +45,6 @@ Pick your preferred theme file, copy it as `~/.config/yazi/theme.toml` or `C:\Us
 
 ## [LS_COLORS](https://github.com/Mellbourn/ls-colors.yazi)
 
-Uses the over 300 different file-type colors from the [LS_COLORS collection](https://github.com/trapd00r/LS_COLORS)
+Uses the over 300 different file-type colors from the [LS_COLORS collection](https://github.com/trapd00r/LS_COLORS) (converted using [lsColorsToToml](https://github.com/Mellbourn/lsColorsToToml))
 
 <img src="https://raw.githubusercontent.com/Mellbourn/ls-colors.yazi/main/Screenshot.png" width="600" />
