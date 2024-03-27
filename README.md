@@ -7,19 +7,19 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 > [!TIP]
 > If you've created a flavor for Yazi, please raise a PR to add your repo to the `README.md`.
 
-## [Catppuccin Mocha](./catppuccin-mocha.yazi)
+## [catppuccin-mocha.yazi](./catppuccin-mocha.yazi)
 
 <img src="./catppuccin-mocha.yazi/preview.png" width="600" />
 
-## [Catppuccin Latte](./catppuccin-latte.yazi)
+## [catppuccin-latte.yazi](./catppuccin-latte.yazi)
 
 <img src="./catppuccin-latte.yazi/preview.png" width="600" />
 
-## [Catppuccin Frappe](./catppuccin-frappe.yazi)
+## [catppuccin-frappe.yazi](./catppuccin-frappe.yazi)
 
 <img src="./catppuccin-frappe.yazi/preview.png" width="600" />
 
-## [Catppuccin Macchiato](./catppuccin-macchiato.yazi)
+## [catppuccin-macchiato.yazi](./catppuccin-macchiato.yazi)
 
 <img src="./catppuccin-macchiato.yazi/preview.png" width="600" />
 

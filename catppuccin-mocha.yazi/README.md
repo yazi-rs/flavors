@@ -8,7 +8,7 @@
 
 ## 👀 Preview
 
-<img src="screenshot.png" width="600" />
+<img src="preview.png" width="600" />
 
 ## 🎨 Installation
 
