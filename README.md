@@ -11,21 +11,9 @@ Pick your preferred theme file, copy it as `~/.config/yazi/theme.toml` or `C:\Us
 > [!TIP]
 > If you've created a theme for Yazi, please raise a PR to add your repo to the `README.md`.
 
-## [Catppuccin Mocha](./catppuccin-mocha)
+## [Catppuccin](https://github.com/catppuccin/yazi)
 
-<img src="./catppuccin-mocha/screenshot.png" width="600" />
-
-## [Catppuccin Latte](./catppuccin-latte)
-
-<img src="./catppuccin-latte/screenshot.png" width="600" />
-
-## [Catppuccin Frappe](./catppuccin-frappe)
-
-<img src="./catppuccin-frappe/screenshot.png" width="600" />
-
-## [Catppuccin Macchiato](./catppuccin-macchiato)
-
-<img src="./catppuccin-macchiato/screenshot.png" width="600" />
+<img src="https://github.com/catppuccin/yazi/raw/main/assets/previews/preview.webp" width="600" />
 
 ## [Crystal](https://github.com/sachinsenal0x64/crystal-theme)
 
