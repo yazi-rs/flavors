@@ -30,3 +30,9 @@ Pick your preferred theme file, copy it as `~/.config/yazi/theme.toml` or `C:\Us
 ## [Rosé Pine](https://github.com/Msouza91/rose-pine.yazi)
 
 <img src="https://raw.githubusercontent.com/Msouza91/rose-pine.yazi/main/code-preview.png" width="600" />
+
+## [LS_COLORS](https://github.com/Mellbourn/ls-colors.yazi)
+
+Adds over 300 different colors for filetypes (converted from [the LS_COLORS collection](https://github.com/trapd00r/LS_COLORS) using [lsColorsToToml](https://github.com/Mellbourn/lsColorsToToml))
+
+<img src="https://raw.githubusercontent.com/Mellbourn/ls-colors.yazi/main/Screenshot.png" width="600" />
