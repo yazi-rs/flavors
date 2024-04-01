@@ -31,7 +31,7 @@ Pick your preferred theme file, copy it as `~/.config/yazi/theme.toml` or `C:\Us
 
 <img src="https://github.com/catppuccin/yazi/raw/main/assets/previews/preview.webp" width="600" />
 
-## [Crystal](https://github.com/sachinsenal0x64/crystal-theme)
+## [Crystal](https://github.com/sachinsenal0x64/crystal-theme.yazi)
 
 <img src="https://raw.githubusercontent.com/sachinsenal0x64/crystal-theme/main/screenshot.png" width="600" />
 
