@@ -20,8 +20,8 @@ marker_marked   = { fg = "{{ yellow }}", bg = "{{ yellow }}" }
 marker_selected = { fg = "{{ blue }}", bg = "{{ blue }}" }
 
 # Tab
-tab_active   = { fg = "{{ base }}", bg = "{{ text }}" }
-tab_inactive = { fg = "{{ text }}", bg = "{{ surface1 }}" }
+tab_active   = { reversed = true }
+tab_inactive = {}
 tab_width    = 1
 
 # Count
@@ -63,6 +63,16 @@ permissions_s = { fg = "{{ overlay1 }}" }
 # : }}}
 
 
+# : Select {{{
+
+[select]
+border   = { fg = "{{ blue }}" }
+active   = { fg = "{{ pink }}", bold = true }
+inactive = {}
+
+# : }}}
+
+
 # : Input {{{
 
 [input]
@@ -74,12 +84,10 @@ selected = { reversed = true }
 # : }}}
 
 
-# : Select {{{
+# : Completion {{{
 
-[select]
-border   = { fg = "{{ blue }}" }
-active   = { fg = "{{ pink }}" }
-inactive = {}
+[completion]
+border = { fg = "{{ blue }}" }
 
 # : }}}
 
@@ -89,7 +97,7 @@ inactive = {}
 [tasks]
 border  = { fg = "{{ blue }}" }
 title   = {}
-hovered = { underline = true }
+hovered = { fg = "{{ pink }}", underline = true }
 
 # : }}}
 
@@ -110,11 +118,20 @@ separator_style = { fg = "{{ surface2 }}" }
 # : Help {{{
 
 [help]
-on      = { fg = "{{ pink }}" }
-run     = { fg = "{{ teal }}" }
-desc    = { fg = "{{ overlay2 }}" }
-hovered = { bg = "{{ surface2 }}", bold = true }
+on      = { fg = "{{ teal }}" }
+run     = { fg = "{{ pink }}" }
+hovered = { reversed = true, bold = true }
 footer  = { fg = "{{ surface1 }}", bg = "{{ text }}" }
+
+# : }}}
+
+
+# : Notify {{{
+
+[notify]
+title_info  = { fg = "{{ green }}" }
+title_warn  = { fg = "{{ yellow }}" }
+title_error = { fg = "{{ red }}" }
 
 # : }}}
 
@@ -127,7 +144,7 @@ rules = [
 	# Images
 	{ mime = "image/*", fg = "{{ teal }}" },
 
-	# Videos
+	# Media
 	{ mime = "video/*", fg = "{{ yellow }}" },
 	{ mime = "audio/*", fg = "{{ yellow }}" },
 
