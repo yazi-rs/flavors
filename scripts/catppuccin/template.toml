@@ -149,13 +149,18 @@ rules = [
 	{ mime = "audio/*", fg = "{{ yellow }}" },
 
 	# Archives
-	{ mime = "application/zip",             fg = "{{ pink }}" },
-	{ mime = "application/gzip",            fg = "{{ pink }}" },
+	{ mime = "application/*zip",            fg = "{{ pink }}" },
 	{ mime = "application/x-tar",           fg = "{{ pink }}" },
-	{ mime = "application/x-bzip",          fg = "{{ pink }}" },
-	{ mime = "application/x-bzip2",         fg = "{{ pink }}" },
+	{ mime = "application/x-bzip*",         fg = "{{ pink }}" },
 	{ mime = "application/x-7z-compressed", fg = "{{ pink }}" },
 	{ mime = "application/x-rar",           fg = "{{ pink }}" },
+	{ mime = "application/x-xz",            fg = "{{ pink }}" },
+
+	# Documents
+	{ mime = "application/doc",   fg = "{{ green }}" },
+	{ mime = "application/pdf",   fg = "{{ green }}" },
+	{ mime = "application/rtf",   fg = "{{ green }}" },
+	{ mime = "application/vnd.*", fg = "{{ green }}" },
 
 	# Fallback
 	{ name = "*", fg = "{{ text }}" },

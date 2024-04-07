@@ -150,12 +150,18 @@ rules = [
 
 	# Archives
 	{ mime = "application/zip",             fg = "#f5c2e7" },
-	{ mime = "application/gzip",            fg = "#f5c2e7" },
 	{ mime = "application/x-tar",           fg = "#f5c2e7" },
-	{ mime = "application/x-bzip",          fg = "#f5c2e7" },
+	{ mime = "application/x-bzip*",         fg = "#f5c2e7" },
 	{ mime = "application/x-bzip2",         fg = "#f5c2e7" },
 	{ mime = "application/x-7z-compressed", fg = "#f5c2e7" },
 	{ mime = "application/x-rar",           fg = "#f5c2e7" },
+	{ mime = "application/x-xz",            fg = "#f5c2e7" },
+
+	# Documents
+	{ mime = "application/doc",   fg = "#a6e3a1" },
+	{ mime = "application/pdf",   fg = "#a6e3a1" },
+	{ mime = "application/rtf",   fg = "#a6e3a1" },
+	{ mime = "application/vnd.*", fg = "#a6e3a1" },
 
 	# Fallback
 	{ name = "*", fg = "#cdd6f4" },
