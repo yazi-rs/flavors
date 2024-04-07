@@ -33,9 +33,6 @@ count_selected = { fg = "{{ base }}", bg = "{{ blue }}" }
 border_symbol = "│"
 border_style  = { fg = "{{ overlay1 }}" }
 
-# Highlighting
-syntect_theme = "~/.config/yazi/Catppuccin-{{ variant }}.tmTheme"
-
 # : }}}
 
 
