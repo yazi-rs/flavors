@@ -23,6 +23,14 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 
 <img src="./catppuccin-macchiato.yazi/preview.png" width="600" />
 
+## [onedark.yazi](https://github.com/BennyOe/onedark.yazi)
+
+<img src="https://raw.githubusercontent.com/BennyOe/onedark.yazi/main/preview.png" width="600" />
+
+## [tokyo-night.yazi](https://github.com/BennyOe/tokyo-night.yazi)
+
+<img src="https://raw.githubusercontent.com/BennyOe/tokyo-night.yazi/main/preview.png" width="600" />
+
 # Themes
 
 Pick your preferred theme file, copy it as `~/.config/yazi/theme.toml` or `C:\Users\YourName\AppData\Roaming\yazi\config\theme.toml`.
@@ -52,11 +60,3 @@ Pick your preferred theme file, copy it as `~/.config/yazi/theme.toml` or `C:\Us
 Adds over 300 different colors for filetypes (converted from [the LS_COLORS collection](https://github.com/trapd00r/LS_COLORS) using [lsColorsToToml](https://github.com/Mellbourn/lsColorsToToml))
 
 <img src="https://raw.githubusercontent.com/Mellbourn/ls-colors.yazi/main/Screenshot.png" width="600" />
-
-## [Onedark](https://github.com/BennyOe/onedark.yazi)
-
-<img src="https://raw.githubusercontent.com/BennyOe/onedark.yazi/main/preview.png" width="600" />
-
-## [Tokyo Night](https://github.com/BennyOe/tokyo-night.yazi)
-
-<img src="https://raw.githubusercontent.com/BennyOe/tokyo-night.yazi/main/preview.png" width="600" />
