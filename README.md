@@ -52,3 +52,7 @@ Pick your preferred theme file, copy it as `~/.config/yazi/theme.toml` or `C:\Us
 Adds over 300 different colors for filetypes (converted from [the LS_COLORS collection](https://github.com/trapd00r/LS_COLORS) using [lsColorsToToml](https://github.com/Mellbourn/lsColorsToToml))
 
 <img src="https://raw.githubusercontent.com/Mellbourn/ls-colors.yazi/main/Screenshot.png" width="600" />
+
+## [Onedark](https://github.com/BennyOe/onedark.yazi)
+
+<img src="https://raw.githubusercontent.com/BennyOe/onedark.yazi/main/preview.png" width="600" />
