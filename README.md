@@ -56,3 +56,7 @@ Adds over 300 different colors for filetypes (converted from [the LS_COLORS coll
 ## [Onedark](https://github.com/BennyOe/onedark.yazi)
 
 <img src="https://raw.githubusercontent.com/BennyOe/onedark.yazi/main/preview.png" width="600" />
+
+## [Tokyo Night](https://github.com/BennyOe/tokyo-night.yazi)
+
+<img src="https://raw.githubusercontent.com/BennyOe/tokyo-night.yazi/main/preview.png" width="600" />
