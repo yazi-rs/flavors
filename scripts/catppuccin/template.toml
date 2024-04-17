@@ -16,8 +16,8 @@ find_position = { fg = "{{ pink }}", bg = "reset", bold = true, italic = true }
 # Marker
 marker_copied   = { fg = "{{ green }}", bg = "{{ green }}" }
 marker_cut      = { fg = "{{ red }}", bg = "{{ red }}" }
-marker_marked   = { fg = "{{ yellow }}", bg = "{{ yellow }}" }
-marker_selected = { fg = "{{ blue }}", bg = "{{ blue }}" }
+marker_marked   = { fg = "{{ teal }}", bg = "{{ teal }}" }
+marker_selected = { fg = "{{ yellow }}", bg = "{{ yellow }}" }
 
 # Tab
 tab_active   = { reversed = true }
@@ -145,22 +145,14 @@ rules = [
 	{ mime = "image/*", fg = "{{ teal }}" },
 
 	# Media
-	{ mime = "video/*", fg = "{{ yellow }}" },
-	{ mime = "audio/*", fg = "{{ yellow }}" },
+	{ mime = "{audio,video}/*", fg = "{{ yellow }}" },
 
 	# Archives
-	{ mime = "application/*zip",            fg = "{{ pink }}" },
-	{ mime = "application/x-tar",           fg = "{{ pink }}" },
-	{ mime = "application/x-bzip*",         fg = "{{ pink }}" },
-	{ mime = "application/x-7z-compressed", fg = "{{ pink }}" },
-	{ mime = "application/x-rar",           fg = "{{ pink }}" },
-	{ mime = "application/x-xz",            fg = "{{ pink }}" },
+	{ mime = "application/*zip", fg = "{{ pink }}" },
+	{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "{{ pink }}" },
 
 	# Documents
-	{ mime = "application/doc",   fg = "{{ green }}" },
-	{ mime = "application/pdf",   fg = "{{ green }}" },
-	{ mime = "application/rtf",   fg = "{{ green }}" },
-	{ mime = "application/vnd.*", fg = "{{ green }}" },
+	{ mime = "application/{pdf,doc,rtf,vnd.*}", fg = "{{ green }}" },
 
 	# Fallback
 	{ name = "*", fg = "{{ text }}" },

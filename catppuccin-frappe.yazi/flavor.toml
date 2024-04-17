@@ -16,8 +16,8 @@ find_position = { fg = "#f4b8e4", bg = "reset", bold = true, italic = true }
 # Marker
 marker_copied   = { fg = "#a6d189", bg = "#a6d189" }
 marker_cut      = { fg = "#e78284", bg = "#e78284" }
-marker_marked   = { fg = "#e5c890", bg = "#e5c890" }
-marker_selected = { fg = "#8caaee", bg = "#8caaee" }
+marker_marked   = { fg = "#81c8be", bg = "#81c8be" }
+marker_selected = { fg = "#e5c890", bg = "#e5c890" }
 
 # Tab
 tab_active   = { reversed = true }
@@ -145,23 +145,14 @@ rules = [
 	{ mime = "image/*", fg = "#81c8be" },
 
 	# Media
-	{ mime = "video/*", fg = "#e5c890" },
-	{ mime = "audio/*", fg = "#e5c890" },
+	{ mime = "{audio,video}/*", fg = "#e5c890" },
 
 	# Archives
-	{ mime = "application/zip",             fg = "#f4b8e4" },
-	{ mime = "application/x-tar",           fg = "#f4b8e4" },
-	{ mime = "application/x-bzip*",         fg = "#f4b8e4" },
-	{ mime = "application/x-bzip2",         fg = "#f4b8e4" },
-	{ mime = "application/x-7z-compressed", fg = "#f4b8e4" },
-	{ mime = "application/x-rar",           fg = "#f4b8e4" },
-	{ mime = "application/x-xz",            fg = "#f4b8e4" },
+	{ mime = "application/*zip", fg = "#f4b8e4" },
+	{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#f4b8e4" },
 
 	# Documents
-	{ mime = "application/doc",   fg = "#a6d189" },
-	{ mime = "application/pdf",   fg = "#a6d189" },
-	{ mime = "application/rtf",   fg = "#a6d189" },
-	{ mime = "application/vnd.*", fg = "#a6d189" },
+	{ mime = "application/{pdf,doc,rtf,vnd.*}", fg = "#a6d189" },
 
 	# Fallback
 	{ name = "*", fg = "#c6d0f5" },
