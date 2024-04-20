@@ -27,7 +27,7 @@ tab_width    = 1
 # Count
 count_copied   = { fg = "{{ base }}", bg = "{{ green }}" }
 count_cut      = { fg = "{{ base }}", bg = "{{ red }}" }
-count_selected = { fg = "{{ base }}", bg = "{{ blue }}" }
+count_selected = { fg = "{{ base }}", bg = "{{ yellow }}" }
 
 # Border
 border_symbol = "│"
