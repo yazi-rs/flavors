@@ -39,9 +39,9 @@ Pick your preferred theme file, copy it as `~/.config/yazi/theme.toml` or `C:\Us
 
 <img src="https://github.com/catppuccin/yazi/raw/main/assets/previews/preview.webp" width="600" />
 
-## [Crystal](https://github.com/sachinsenal0x64/crystal-theme.yazi)
+## [Crystal](https://github.com/sachinsenal0x64/crystal.yazi)
 
-<img src="https://raw.githubusercontent.com/sachinsenal0x64/crystal-theme/main/screenshot.png" width="600" />
+<img src="https://sachinsenal0x64.github.io/picx-images-hosting/2024-07-10-00:59:09-screenshot.8ojky6880p.webp" width="600" />
 
 ## [Gruvbox Dark](https://github.com/poperigby/gruvbox-dark-yazi)
 
