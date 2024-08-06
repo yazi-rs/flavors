@@ -41,6 +41,7 @@ Pick your preferred theme file, copy it as `~/.config/yazi/theme.toml` or `C:\Us
 
 ## [Crystal](https://github.com/sachinsenal0x64/crystal.yazi)
 
+
 <img src="https://sachinsenal0x64.github.io/picx-images-hosting/2024-07-10-00:59:09-screenshot.8ojky6880p.webp" width="600" />
 
 ## [Gruvbox Dark](https://github.com/poperigby/gruvbox-dark-yazi)
@@ -60,3 +61,7 @@ Pick your preferred theme file, copy it as `~/.config/yazi/theme.toml` or `C:\Us
 Adds over 300 different colors for filetypes (converted from [the LS_COLORS collection](https://github.com/trapd00r/LS_COLORS) using [lsColorsToToml](https://github.com/Mellbourn/lsColorsToToml))
 
 <img src="https://raw.githubusercontent.com/Mellbourn/ls-colors.yazi/main/Screenshot.png" width="600" />
+
+## [Blossom](https://github.com/BlossomTheme/yazi)
+
+<img src="https://sachinsenal0x64.github.io/picx-images-hosting/2024-07-22-031352_hyprshot.7sn3w211xq.webp" width="600" />
