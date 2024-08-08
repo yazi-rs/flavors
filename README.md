@@ -32,6 +32,7 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 <img src="https://raw.githubusercontent.com/BennyOe/tokyo-night.yazi/main/preview.png" width="600" />
 
 ## [kanagawa.yazi](https://github.com/dangooddd/kanagawa.yazi.git)
+
 <img src="https://raw.githubusercontent.com/dangooddd/kanagawa.yazi/main/preview.png" width="600" />
 
 # Themes
