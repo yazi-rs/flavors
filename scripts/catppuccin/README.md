@@ -12,10 +12,9 @@
 
 ## 🎨 Installation
 
-Download and copy this folder as:
-
-- `~/.config/yazi/flavors/catppuccin-{{ variant }}.yazi` on Linux/macOS
-- `%AppData%\yazi\config\flavors\catppuccin-{{ variant }}.yazi` on Windows
+```sh
+ya pack -a yazi-rs/flavors:catppuccin-{{ variant }}
+```
 
 ## ⚙️ Usage
 

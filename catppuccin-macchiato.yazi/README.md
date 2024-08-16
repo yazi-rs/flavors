@@ -12,10 +12,9 @@
 
 ## 🎨 Installation
 
-Download and copy this folder as:
-
-- `~/.config/yazi/flavors/catppuccin-macchiato.yazi` on Linux/macOS
-- `%AppData%\yazi\config\flavors\catppuccin-macchiato.yazi` on Windows
+```sh
+ya pack -a yazi-rs/flavors:catppuccin-macchiato
+```
 
 ## ⚙️ Usage
 

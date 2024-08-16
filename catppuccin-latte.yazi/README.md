@@ -12,10 +12,9 @@
 
 ## 🎨 Installation
 
-Download and copy this folder as:
-
-- `~/.config/yazi/flavors/catppuccin-latte.yazi` on Linux/macOS
-- `%AppData%\yazi\config\flavors\catppuccin-latte.yazi` on Windows
+```sh
+ya pack -a yazi-rs/flavors:catppuccin-latte
+```
 
 ## ⚙️ Usage
 
