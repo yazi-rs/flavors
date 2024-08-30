@@ -35,6 +35,10 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 
 <img src="https://raw.githubusercontent.com/dangooddd/kanagawa.yazi/main/preview.png" width="600" />
 
+## [gruvbox-dark.yazi](https://github.com/bennyyip/gruvbox-dark.yazi.git)
+
+<img src="https://raw.githubusercontent.com/bennyyip/gruvbox-dark.yazi/main/preview.png" width="600" />
+
 # Themes
 
 Pick your preferred theme file, copy it as `~/.config/yazi/theme.toml` or `C:\Users\YourName\AppData\Roaming\yazi\config\theme.toml`.
