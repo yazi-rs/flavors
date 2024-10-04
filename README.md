@@ -39,6 +39,10 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 
 <img src="https://raw.githubusercontent.com/bennyyip/gruvbox-dark.yazi/main/preview.png" width="600" />
 
+## [sunset.yazi](https://github.com/PinThePenguine/sunset.yazi.git)
+
+<img src="https://raw.githubusercontent.com/PinThePenguine/sunset.yazi/main/preview.png" width="600" />
+
 # Themes
 
 Pick your preferred theme file, copy it as `~/.config/yazi/theme.toml` or `C:\Users\YourName\AppData\Roaming\yazi\config\theme.toml`.
