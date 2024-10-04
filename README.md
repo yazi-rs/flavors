@@ -31,13 +31,17 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 
 <img src="https://raw.githubusercontent.com/BennyOe/tokyo-night.yazi/main/preview.png" width="600" />
 
-## [kanagawa.yazi](https://github.com/dangooddd/kanagawa.yazi.git)
+## [kanagawa.yazi](https://github.com/dangooddd/kanagawa.yazi)
 
 <img src="https://raw.githubusercontent.com/dangooddd/kanagawa.yazi/main/preview.png" width="600" />
 
-## [gruvbox-dark.yazi](https://github.com/bennyyip/gruvbox-dark.yazi.git)
+## [gruvbox-dark.yazi](https://github.com/bennyyip/gruvbox-dark.yazi)
 
 <img src="https://raw.githubusercontent.com/bennyyip/gruvbox-dark.yazi/main/preview.png" width="600" />
+
+## [sunset.yazi](https://github.com/PinThePenguine/sunset.yazi)
+
+<img src="https://raw.githubusercontent.com/PinThePenguine/sunset.yazi/main/preview.png" width="600" />
 
 # Themes
 
