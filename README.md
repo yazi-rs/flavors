@@ -76,3 +76,7 @@ Adds over 300 different colors for filetypes (converted from [the LS_COLORS coll
 ## [Ayu Dark](https://github.com/kmlupreti/ayu-dark.yazi)
 
 <img src="https://raw.githubusercontent.com/kmlupreti/ayu-dark.yazi/main/preview.png" width="600" />
+
+## [Everforest Medium](https://github.com/Chromium-3-Oxide/everforest-medium.yazi)
+
+<img src="https://raw.githubusercontent.com/Chromium-3-Oxide/everforest-medium.yazi/main/preview.png" width="600" />
