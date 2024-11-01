@@ -80,3 +80,7 @@ Adds over 300 different colors for filetypes (converted from [the LS_COLORS coll
 ## [Everforest Medium](https://github.com/Chromium-3-Oxide/everforest-medium.yazi)
 
 <img src="https://raw.githubusercontent.com/Chromium-3-Oxide/everforest-medium.yazi/main/preview.png" width="600" />
+
+## [Monokai Vibrant](https://github.com/sanjinso/monokai-vibrant.yazi)
+
+<img src="https://raw.githubusercontent.com/sanjinso/monokai-vibrant.yazi/main/preview.png" width="600" />
