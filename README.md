@@ -23,9 +23,9 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 
 <img src="./catppuccin-macchiato.yazi/preview.png" width="600" />
 
-## [fly16.yazi](https://github.com/tkapias/fly16.yazi)
+## [nightfly.yazi](https://github.com/tkapias/nightfly.yazi)
 
-<img src="https://raw.githubusercontent.com/tkapias/fly16.yazi/main/preview.png" width="600" />
+<img src="https://raw.githubusercontent.com/tkapias/nightfly.yazi/main/preview.png" width="600" />
 
 ## [onedark.yazi](https://github.com/BennyOe/onedark.yazi)
 
