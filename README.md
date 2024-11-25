@@ -51,47 +51,6 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 
 <img src="https://raw.githubusercontent.com/PinThePenguine/sunset.yazi/main/preview.png" width="600" />
 
-## Themes
-
-> [!WARNING]
-> This repository no longer accepts new themes in favor of the new flavor format, because flavors:
->
-> - More powerful - auto dark/light mode switching with the terminal
-> - Easier to update - can be managed with the `ya pack` package manager
-> - Offers configuration merging - override some styles from `flavor.toml` in your own `theme.toml`
->
-> So, it's strongly recommended to switch to using flavors.
-
----
-
-Pick your preferred theme file, copy it as `~/.config/yazi/theme.toml` or `C:\Users\YourName\AppData\Roaming\yazi\config\theme.toml`.
-
-## [Catppuccin](https://github.com/catppuccin/yazi)
-
-<img src="https://github.com/catppuccin/yazi/raw/main/assets/previews/preview.webp" width="600" />
-
-## [Crystal](https://github.com/sachinsenal0x64/crystal.yazi)
-
-<img src="https://sachinsenal0x64.github.io/picx-images-hosting/2024-07-10-00:59:09-screenshot.8ojky6880p.webp" width="600" />
-
-## [Gruvbox Dark](https://github.com/poperigby/gruvbox-dark-yazi)
-
-<img src="https://github.com/poperigby/gruvbox-dark-yazi/assets/20866468/219985f5-5dff-4a10-99a5-d41c4adc6ba7" width="600" />
-
-## [Flexoki](https://github.com/Reledia/flexoki.yazi)
-
-<img src="https://raw.githubusercontent.com/Reledia/flexoki.yazi/main/preview.png" width="600" />
-
-## [Rosé Pine](https://github.com/Msouza91/rose-pine.yazi)
-
-<img src="https://raw.githubusercontent.com/Msouza91/rose-pine.yazi/main/code-preview.png" width="600" />
-
-## [LS_COLORS](https://github.com/Mellbourn/ls-colors.yazi)
-
-Adds over 300 different colors for filetypes (converted from [the LS_COLORS collection](https://github.com/trapd00r/LS_COLORS) using [lsColorsToToml](https://github.com/Mellbourn/lsColorsToToml))
-
-<img src="https://raw.githubusercontent.com/Mellbourn/ls-colors.yazi/main/Screenshot.png" width="600" />
-
 ## [Ayu Dark](https://github.com/kmlupreti/ayu-dark.yazi)
 
 <img src="https://raw.githubusercontent.com/kmlupreti/ayu-dark.yazi/main/preview.png" width="600" />
@@ -103,3 +62,7 @@ Adds over 300 different colors for filetypes (converted from [the LS_COLORS coll
 ## [Monokai Vibrant](https://github.com/sanjinso/monokai-vibrant.yazi)
 
 <img src="https://raw.githubusercontent.com/sanjinso/monokai-vibrant.yazi/main/preview.png" width="600" />
+
+## Themes
+
+We [recommend using the new flavor format](https://yazi-rs.github.io/docs/flavors/overview/#why), but if you're still interested in themes, check out the [Themes](./themes.md) page.
