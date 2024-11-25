@@ -53,13 +53,14 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 
 ## Themes
 
-This repository no longer accepts new themes in favor of the new flavor format, because flavors:
-
-- More powerful - auto dark/light mode switching with the terminal
-- Easier to update - can be managed with the `ya pack` package manager
-- Offers configuration merging - override some styles from `flavor.toml` in your own `theme.toml`
-
-So, it's strongly recommended to switch to using flavors.
+> [!WARNING]
+> This repository no longer accepts new themes in favor of the new flavor format, because flavors:
+>
+> - More powerful - auto dark/light mode switching with the terminal
+> - Easier to update - can be managed with the `ya pack` package manager
+> - Offers configuration merging - override some styles from `flavor.toml` in your own `theme.toml`
+>
+> So, it's strongly recommended to switch to using flavors.
 
 ---
 
