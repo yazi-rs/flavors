@@ -18,11 +18,13 @@ ya pack -a yazi-rs/flavors:catppuccin-{{ variant }}
 
 ## ⚙️ Usage
 
-Add these lines to your `theme.toml` configuration file to use it:
+Add these lines to your `theme.toml` to set this flavor as your _{{ mode }}_ flavor:
 
 ```toml
 [flavor]
 use = "catppuccin-{{ variant }}"
+# For upcoming Yazi 0.4 (nightly version):
+{{ mode }} = "catppuccin-{{ variant }}"
 ```
 
 ## 📜 License

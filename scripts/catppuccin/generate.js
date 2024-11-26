@@ -1,7 +1,8 @@
-import { variants, labels as colors } from "@catppuccin/palette"
 import { readFile, writeFile } from "node:fs/promises"
 import { join } from "node:path"
 import { fileURLToPath } from "node:url"
+
+import { labels as colors, variants } from "@catppuccin/palette"
 
 const __dirname = fileURLToPath(new URL(".", import.meta.url))
 
@@ -21,6 +22,7 @@ for (const variant of Object.keys(variants)) {
 	await writeFile(
 		join(__dirname, `../../catppuccin-${variant}.yazi/README.md`),
 		readme
+			.replaceAll("{{ mode }}", variant === "latte" ? "light" : "dark")
 			.replaceAll("{{ variant }}", variant)
 			.replaceAll("{{ variant_cap }}", variant.charAt(0).toUpperCase() + variant.slice(1)),
 	)

@@ -36,17 +36,29 @@ border_style  = { fg = "{{ overlay1 }}" }
 # : }}}
 
 
-# : Status {{{
+# : Mode {{{
+
+[mode]
+
+normal_main = { fg = "{{ base }}", bg = "{{ blue }}", bold = true }
+normal_alt  = { fg = "{{ blue }}", bg = "{{ surface0 }}" }
+
+# Select mode
+select_main = { fg = "{{ base }}", bg = "{{ green }}", bold = true }
+select_alt  = { fg = "{{ green }}", bg = "{{ surface0 }}" }
+
+# Unset mode
+unset_main = { fg = "{{ base }}", bg = "{{ flamingo }}", bold = true }
+unset_alt  = { fg = "{{ flamingo }}", bg = "{{ surface0 }}" }
+
+# : }}}
+
+
+# : Status bar {{{
 
 [status]
 separator_open  = ""
 separator_close = ""
-separator_style = { fg = "{{ surface1 }}", bg = "{{ surface1 }}" }
-
-# Mode
-mode_normal = { fg = "{{ base }}", bg = "{{ blue }}", bold = true }
-mode_select = { fg = "{{ base }}", bg = "{{ green }}", bold = true }
-mode_unset  = { fg = "{{ base }}", bg = "{{ flamingo }}", bold = true }
 
 # Progress
 progress_label  = { fg = "#ffffff", bold = true }
@@ -54,21 +66,40 @@ progress_normal = { fg = "{{ blue }}", bg = "{{ surface1 }}" }
 progress_error  = { fg = "{{ red }}", bg = "{{ surface1 }}" }
 
 # Permissions
+perm_sep   = { fg = "{{ overlay1 }}" }
+perm_type  = { fg = "{{ blue }}" }
+perm_read  = { fg = "{{ yellow }}" }
+perm_write = { fg = "{{ red }}" }
+perm_exec  = { fg = "{{ green }}" }
+
+# TODO: -- remove these once Yazi 0.4 gets released
+separator_style = { fg = "{{ surface0 }}", bg = "{{ surface0 }}" }
+mode_normal = { fg = "{{ base }}", bg = "{{ blue }}", bold = true }
+mode_select = { fg = "{{ base }}", bg = "{{ green }}", bold = true }
+mode_unset  = { fg = "{{ base }}", bg = "{{ flamingo }}", bold = true }
 permissions_t = { fg = "{{ blue }}" }
 permissions_r = { fg = "{{ yellow }}" }
 permissions_w = { fg = "{{ red }}" }
 permissions_x = { fg = "{{ green }}" }
 permissions_s = { fg = "{{ overlay1 }}" }
+# TODO: remove these once Yazi 0.4 gets released --
 
 # : }}}
 
 
-# : Select {{{
+# : Pick {{{
 
+[pick]
+border   = { fg = "{{ blue }}" }
+active   = { fg = "{{ pink }}", bold = true }
+inactive = {}
+
+# TODO: -- remove these once Yazi 0.4 gets released
 [select]
 border   = { fg = "{{ blue }}" }
 active   = { fg = "{{ pink }}", bold = true }
 inactive = {}
+# TODO: remove these once Yazi 0.4 gets released --
 
 # : }}}
 
@@ -121,7 +152,7 @@ separator_style = { fg = "{{ surface2 }}" }
 on      = { fg = "{{ teal }}" }
 run     = { fg = "{{ pink }}" }
 hovered = { reversed = true, bold = true }
-footer  = { fg = "{{ surface1 }}", bg = "{{ text }}" }
+footer  = { fg = "{{ surface0 }}", bg = "{{ text }}" }
 
 # : }}}
 

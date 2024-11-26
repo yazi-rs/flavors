@@ -36,17 +36,29 @@ border_style  = { fg = "#8087a2" }
 # : }}}
 
 
-# : Status {{{
+# : Mode {{{
+
+[mode]
+
+normal_main = { fg = "#24273a", bg = "#8aadf4", bold = true }
+normal_alt  = { fg = "#8aadf4", bg = "#363a4f" }
+
+# Select mode
+select_main = { fg = "#24273a", bg = "#a6da95", bold = true }
+select_alt  = { fg = "#a6da95", bg = "#363a4f" }
+
+# Unset mode
+unset_main = { fg = "#24273a", bg = "#f0c6c6", bold = true }
+unset_alt  = { fg = "#f0c6c6", bg = "#363a4f" }
+
+# : }}}
+
+
+# : Status bar {{{
 
 [status]
 separator_open  = ""
 separator_close = ""
-separator_style = { fg = "#494d64", bg = "#494d64" }
-
-# Mode
-mode_normal = { fg = "#24273a", bg = "#8aadf4", bold = true }
-mode_select = { fg = "#24273a", bg = "#a6da95", bold = true }
-mode_unset  = { fg = "#24273a", bg = "#f0c6c6", bold = true }
 
 # Progress
 progress_label  = { fg = "#ffffff", bold = true }
@@ -54,21 +66,40 @@ progress_normal = { fg = "#8aadf4", bg = "#494d64" }
 progress_error  = { fg = "#ed8796", bg = "#494d64" }
 
 # Permissions
+perm_sep   = { fg = "#8087a2" }
+perm_type  = { fg = "#8aadf4" }
+perm_read  = { fg = "#eed49f" }
+perm_write = { fg = "#ed8796" }
+perm_exec  = { fg = "#a6da95" }
+
+# TODO: -- remove these once Yazi 0.4 gets released
+separator_style = { fg = "#363a4f", bg = "#363a4f" }
+mode_normal = { fg = "#24273a", bg = "#8aadf4", bold = true }
+mode_select = { fg = "#24273a", bg = "#a6da95", bold = true }
+mode_unset  = { fg = "#24273a", bg = "#f0c6c6", bold = true }
 permissions_t = { fg = "#8aadf4" }
 permissions_r = { fg = "#eed49f" }
 permissions_w = { fg = "#ed8796" }
 permissions_x = { fg = "#a6da95" }
 permissions_s = { fg = "#8087a2" }
+# TODO: remove these once Yazi 0.4 gets released --
 
 # : }}}
 
 
-# : Select {{{
+# : Pick {{{
 
+[pick]
+border   = { fg = "#8aadf4" }
+active   = { fg = "#f5bde6", bold = true }
+inactive = {}
+
+# TODO: -- remove these once Yazi 0.4 gets released
 [select]
 border   = { fg = "#8aadf4" }
 active   = { fg = "#f5bde6", bold = true }
 inactive = {}
+# TODO: remove these once Yazi 0.4 gets released --
 
 # : }}}
 
@@ -121,7 +152,7 @@ separator_style = { fg = "#5b6078" }
 on      = { fg = "#8bd5ca" }
 run     = { fg = "#f5bde6" }
 hovered = { reversed = true, bold = true }
-footer  = { fg = "#494d64", bg = "#cad3f5" }
+footer  = { fg = "#363a4f", bg = "#cad3f5" }
 
 # : }}}
 

@@ -24,7 +24,7 @@ Add these lines to your `theme.toml` to set this flavor as your _dark_ flavor:
 [flavor]
 use = "catppuccin-macchiato"
 # For upcoming Yazi 0.4 (nightly version):
-light = "catppuccin-macchiato"
+dark = "catppuccin-macchiato"
 ```
 
 ## 📜 License
