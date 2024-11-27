@@ -43,6 +43,10 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 
 <img src="https://raw.githubusercontent.com/dangooddd/kanagawa.yazi/main/preview.png" width="600" />
 
+## [kanagawa-dragon.yazi](https://github.com/marcosvnmelo/kanagawa-dragon.yazi)
+
+<img src="https://raw.githubusercontent.com/marcosvnmelo/kanagawa-dragon.yazi/main/preview.png" width="600" />
+
 ## [gruvbox-dark.yazi](https://github.com/bennyyip/gruvbox-dark.yazi)
 
 <img src="https://raw.githubusercontent.com/bennyyip/gruvbox-dark.yazi/main/preview.png" width="600" />
