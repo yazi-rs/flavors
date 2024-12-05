@@ -18,7 +18,7 @@ ya pack -a yazi-rs/flavors:catppuccin-{{ variant }}
 
 ## ⚙️ Usage
 
-Add these lines to your `theme.toml` to set this flavor as your _{{ mode }}_ flavor:
+Set the content of your `theme.toml` to enable it as your _{{ mode }}_ flavor:
 
 ```toml
 [flavor]
@@ -26,6 +26,10 @@ use = "catppuccin-{{ variant }}"
 # For upcoming Yazi 0.4 (nightly version):
 {{ mode }} = "catppuccin-{{ variant }}"
 ```
+
+Make sure your `theme.toml` doesn't contain anything other than `[flavor]`, unless you want to override certain styles of this flavor.
+
+See the [Yazi flavor documentation](https://yazi-rs.github.io/docs/flavors/overview) for more details.
 
 ## 📜 License
 

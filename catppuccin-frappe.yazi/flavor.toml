@@ -74,14 +74,14 @@ perm_exec  = { fg = "#a6d189" }
 
 # TODO: -- remove these once Yazi 0.4 gets released
 separator_style = { fg = "#414559", bg = "#414559" }
-mode_normal = { fg = "#303446", bg = "#8caaee", bold = true }
-mode_select = { fg = "#303446", bg = "#a6d189", bold = true }
-mode_unset  = { fg = "#303446", bg = "#eebebe", bold = true }
-permissions_t = { fg = "#8caaee" }
-permissions_r = { fg = "#e5c890" }
-permissions_w = { fg = "#e78284" }
-permissions_x = { fg = "#a6d189" }
-permissions_s = { fg = "#838ba7" }
+mode_normal     = { fg = "#303446", bg = "#8caaee", bold = true }
+mode_select     = { fg = "#303446", bg = "#a6d189", bold = true }
+mode_unset      = { fg = "#303446", bg = "#eebebe", bold = true }
+permissions_t   = { fg = "#8caaee" }
+permissions_r   = { fg = "#e5c890" }
+permissions_w   = { fg = "#e78284" }
+permissions_x   = { fg = "#a6d189" }
+permissions_s   = { fg = "#838ba7" }
 # TODO: remove these once Yazi 0.4 gets released --
 
 # : }}}
@@ -183,7 +183,7 @@ rules = [
 	{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#f4b8e4" },
 
 	# Documents
-	{ mime = "application/{pdf,doc,rtf,vnd.*}", fg = "#a6d189" },
+	{ mime = "application/{pdf,doc,rtf}", fg = "#a6d189" },
 
 	# Fallback
 	{ name = "*", fg = "#c6d0f5" },

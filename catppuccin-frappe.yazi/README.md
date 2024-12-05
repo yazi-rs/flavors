@@ -18,7 +18,7 @@ ya pack -a yazi-rs/flavors:catppuccin-frappe
 
 ## ⚙️ Usage
 
-Add these lines to your `theme.toml` to set this flavor as your _dark_ flavor:
+Set the content of your `theme.toml` to enable it as your _dark_ flavor:
 
 ```toml
 [flavor]
@@ -26,6 +26,10 @@ use = "catppuccin-frappe"
 # For upcoming Yazi 0.4 (nightly version):
 dark = "catppuccin-frappe"
 ```
+
+Make sure your `theme.toml` doesn't contain anything other than `[flavor]`, unless you want to override certain styles of this flavor.
+
+See the [Yazi flavor documentation](https://yazi-rs.github.io/docs/flavors/overview) for more details.
 
 ## 📜 License
 
