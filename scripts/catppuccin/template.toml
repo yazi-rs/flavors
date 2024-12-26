@@ -72,18 +72,6 @@ perm_read  = { fg = "{{ yellow }}" }
 perm_write = { fg = "{{ red }}" }
 perm_exec  = { fg = "{{ green }}" }
 
-# TODO: -- remove these once Yazi 0.4 gets released
-separator_style = { fg = "{{ surface0 }}", bg = "{{ surface0 }}" }
-mode_normal     = { fg = "{{ base }}", bg = "{{ blue }}", bold = true }
-mode_select     = { fg = "{{ base }}", bg = "{{ green }}", bold = true }
-mode_unset      = { fg = "{{ base }}", bg = "{{ flamingo }}", bold = true }
-permissions_t   = { fg = "{{ blue }}" }
-permissions_r   = { fg = "{{ yellow }}" }
-permissions_w   = { fg = "{{ red }}" }
-permissions_x   = { fg = "{{ green }}" }
-permissions_s   = { fg = "{{ overlay1 }}" }
-# TODO: remove these once Yazi 0.4 gets released --
-
 # : }}}
 
 
@@ -93,13 +81,6 @@ permissions_s   = { fg = "{{ overlay1 }}" }
 border   = { fg = "{{ blue }}" }
 active   = { fg = "{{ pink }}", bold = true }
 inactive = {}
-
-# TODO: -- remove these once Yazi 0.4 gets released
-[select]
-border   = { fg = "{{ blue }}" }
-active   = { fg = "{{ pink }}", bold = true }
-inactive = {}
-# TODO: remove these once Yazi 0.4 gets released --
 
 # : }}}
 
@@ -179,8 +160,7 @@ rules = [
 	{ mime = "{audio,video}/*", fg = "{{ yellow }}" },
 
 	# Archives
-	{ mime = "application/*zip", fg = "{{ pink }}" },
-	{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "{{ pink }}" },
+	{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "{{ pink }}" },
 
 	# Documents
 	{ mime = "application/{pdf,doc,rtf}", fg = "{{ green }}" },

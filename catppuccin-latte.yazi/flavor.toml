@@ -72,18 +72,6 @@ perm_read  = { fg = "#df8e1d" }
 perm_write = { fg = "#d20f39" }
 perm_exec  = { fg = "#40a02b" }
 
-# TODO: -- remove these once Yazi 0.4 gets released
-separator_style = { fg = "#ccd0da", bg = "#ccd0da" }
-mode_normal     = { fg = "#eff1f5", bg = "#1e66f5", bold = true }
-mode_select     = { fg = "#eff1f5", bg = "#40a02b", bold = true }
-mode_unset      = { fg = "#eff1f5", bg = "#dd7878", bold = true }
-permissions_t   = { fg = "#1e66f5" }
-permissions_r   = { fg = "#df8e1d" }
-permissions_w   = { fg = "#d20f39" }
-permissions_x   = { fg = "#40a02b" }
-permissions_s   = { fg = "#8c8fa1" }
-# TODO: remove these once Yazi 0.4 gets released --
-
 # : }}}
 
 
@@ -93,13 +81,6 @@ permissions_s   = { fg = "#8c8fa1" }
 border   = { fg = "#1e66f5" }
 active   = { fg = "#ea76cb", bold = true }
 inactive = {}
-
-# TODO: -- remove these once Yazi 0.4 gets released
-[select]
-border   = { fg = "#1e66f5" }
-active   = { fg = "#ea76cb", bold = true }
-inactive = {}
-# TODO: remove these once Yazi 0.4 gets released --
 
 # : }}}
 
@@ -179,8 +160,7 @@ rules = [
 	{ mime = "{audio,video}/*", fg = "#df8e1d" },
 
 	# Archives
-	{ mime = "application/*zip", fg = "#ea76cb" },
-	{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#ea76cb" },
+	{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#ea76cb" },
 
 	# Documents
 	{ mime = "application/{pdf,doc,rtf}", fg = "#40a02b" },
