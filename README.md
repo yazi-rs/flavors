@@ -67,6 +67,14 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 
 <img src="https://raw.githubusercontent.com/sanjinso/monokai-vibrant.yazi/main/preview.png" width="600" />
 
+## [Timu macOS dark](https://gitlab.com/aimebertrand/timu-macos-yazi/-/tree/main/timu-macos-dark.yazi)
+
+<img src="https://gitlab.com/aimebertrand/timu-macos-yazi/-/raw/main/timu-macos-dark.yazi/preview.png" width="600" />
+
+## [Timu macOS light](https://gitlab.com/aimebertrand/timu-macos-yazi/-/tree/main/timu-macos-light.yazi)
+
+<img src="https://gitlab.com/aimebertrand/timu-macos-yazi/-/raw/main/timu-macos-light.yazi/preview.png" width="600" />
+
 ## Themes
 
 We [recommend using the new flavor format](https://yazi-rs.github.io/docs/flavors/overview/#why), but if you're still interested in themes, check out the [Themes](./themes.md) page.
