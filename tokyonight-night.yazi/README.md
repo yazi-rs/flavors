@@ -33,6 +33,6 @@ See the [Yazi flavor documentation](https://yazi-rs.github.io/docs/flavors/overv
 
 ## 📜 License
 
-The flavor is MIT-licensed, and the included tmTheme is also MIT-licensed.
+The flavor is MIT-licensed, and the included tmTheme is Apache-licensed.
 
 Check the [LICENSE](LICENSE) and [LICENSE-tmtheme](LICENSE-tmtheme) file for more details.
