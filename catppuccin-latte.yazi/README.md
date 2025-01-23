@@ -22,8 +22,6 @@ Set the content of your `theme.toml` to enable it as your _light_ flavor:
 
 ```toml
 [flavor]
-use = "catppuccin-latte"
-# For upcoming Yazi 0.4 (nightly version):
 light = "catppuccin-latte"
 ```
 

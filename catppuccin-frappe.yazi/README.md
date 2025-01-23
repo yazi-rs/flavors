@@ -22,8 +22,6 @@ Set the content of your `theme.toml` to enable it as your _dark_ flavor:
 
 ```toml
 [flavor]
-use = "catppuccin-frappe"
-# For upcoming Yazi 0.4 (nightly version):
 dark = "catppuccin-frappe"
 ```
 

@@ -1,16 +1,9 @@
-lockfileVersion: '6.0'
+lockfileVersion: '9.0'
 
 settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-devDependencies:
-  '@catppuccin/palette':
-    specifier: ^0.2.0
-    version: 0.2.0
+importers:
 
-packages:
-
-  /@catppuccin/palette@0.2.0:
-    resolution: {integrity: sha512-PoAMQMEbL8fBEO80eusB+XQg+1i2kxQHw6COwBRC4bVWxWuRroZjm3K6bOdqPHNHKikDIV7wLi9hSG4NoD1FEQ==}
-    dev: true
+  .: {}

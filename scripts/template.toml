@@ -1,0 +1,173 @@
+# vim:fileencoding=utf-8:foldmethod=marker
+
+# : Manager {{{
+
+[manager]
+cwd = { fg = "${secondary}" }
+
+# Hovered
+hovered         = { reversed = true }
+preview_hovered = { underline = true }
+
+# Find
+find_keyword  = { fg = "${yellow}", bold = true, italic = true, underline = true }
+find_position = { fg = "${accent}", bg = "reset", bold = true, italic = true }
+
+# Marker
+marker_copied   = { fg = "${green}", bg = "${green}" }
+marker_cut      = { fg = "${red}", bg = "${red}" }
+marker_marked   = { fg = "${secondary}", bg = "${secondary}" }
+marker_selected = { fg = "${yellow}", bg = "${yellow}" }
+
+# Tab
+tab_active   = { reversed = true }
+tab_inactive = {}
+tab_width    = 1
+
+# Count
+count_copied   = { fg = "${background}", bg = "${green}" }
+count_cut      = { fg = "${background}", bg = "${red}" }
+count_selected = { fg = "${background}", bg = "${yellow}" }
+
+# Border
+border_symbol = "│"
+border_style  = { fg = "${onSurface1}" }
+
+# : }}}
+
+
+# : Mode {{{
+
+[mode]
+
+normal_main = { fg = "${background}", bg = "${primary}", bold = true }
+normal_alt  = { fg = "${primary}", bg = "${surface}" }
+
+# Select mode
+select_main = { fg = "${background}", bg = "${secondary}", bold = true }
+select_alt  = { fg = "${secondary}", bg = "${surface}" }
+
+# Unset mode
+unset_main = { fg = "${background}", bg = "${tertiary}", bold = true }
+unset_alt  = { fg = "${tertiary}", bg = "${surface}" }
+
+# : }}}
+
+
+# : Status bar {{{
+
+[status]
+separator_open  = ""
+separator_close = ""
+
+# Progress
+progress_label  = { fg = "#ffffff", bold = true }
+progress_normal = { fg = "${primary}", bg = "${surface1}" }
+progress_error  = { fg = "${red}", bg = "${surface1}" }
+
+# Permissions
+perm_sep   = { fg = "${onSurface1}" }
+perm_type  = { fg = "${blue}" }
+perm_read  = { fg = "${yellow}" }
+perm_write = { fg = "${red}" }
+perm_exec  = { fg = "${green}" }
+
+# : }}}
+
+
+# : Pick {{{
+
+[pick]
+border   = { fg = "${primary}" }
+active   = { fg = "${accent}", bold = true }
+inactive = {}
+
+# : }}}
+
+
+# : Input {{{
+
+[input]
+border   = { fg = "${primary}" }
+title    = {}
+value    = {}
+selected = { reversed = true }
+
+# : }}}
+
+
+# : Completion {{{
+
+[completion]
+border = { fg = "${primary}" }
+
+# : }}}
+
+
+# : Tasks {{{
+
+[tasks]
+border  = { fg = "${primary}" }
+title   = {}
+hovered = { fg = "${accent}", underline = true }
+
+# : }}}
+
+
+# : Which {{{
+
+[which]
+mask            = { bg = "${surface}" }
+cand            = { fg = "${secondary}" }
+rest            = { fg = "${onSurface2}" }
+desc            = { fg = "${accent}" }
+separator       = "  "
+separator_style = { fg = "${surface2}" }
+
+# : }}}
+
+
+# : Help {{{
+
+[help]
+on      = { fg = "${secondary}" }
+run     = { fg = "${accent}" }
+hovered = { reversed = true, bold = true }
+footer  = { fg = "${surface}", bg = "${text}" }
+
+# : }}}
+
+
+# : Notify {{{
+
+[notify]
+title_info  = { fg = "${green}" }
+title_warn  = { fg = "${yellow}" }
+title_error = { fg = "${red}" }
+
+# : }}}
+
+
+# : File-specific styles {{{
+
+[filetype]
+
+rules = [
+	# Images
+	{ mime = "image/*", fg = "${secondary}" },
+
+	# Media
+	{ mime = "{audio,video}/*", fg = "${yellow}" },
+
+	# Archives
+	{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "${accent}" },
+
+	# Documents
+	{ mime = "application/{pdf,doc,rtf}", fg = "${green}" },
+
+	# Fallback
+	{ name = "*", fg = "${text}" },
+	{ name = "*/", fg = "${primary}" }
+]
+
+# : }}}

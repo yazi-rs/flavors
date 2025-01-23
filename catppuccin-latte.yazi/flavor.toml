@@ -44,8 +44,8 @@ normal_main = { fg = "#eff1f5", bg = "#1e66f5", bold = true }
 normal_alt  = { fg = "#1e66f5", bg = "#ccd0da" }
 
 # Select mode
-select_main = { fg = "#eff1f5", bg = "#40a02b", bold = true }
-select_alt  = { fg = "#40a02b", bg = "#ccd0da" }
+select_main = { fg = "#eff1f5", bg = "#179299", bold = true }
+select_alt  = { fg = "#179299", bg = "#ccd0da" }
 
 # Unset mode
 unset_main = { fg = "#eff1f5", bg = "#dd7878", bold = true }
