@@ -24,7 +24,7 @@
           <key>caret</key>
           <string>#f5e0dc</string>
           <key>lineHighlight</key>
-          <string>#cdd6f412</string>
+          <string>#313244</string>
           <key>misspelling</key>
           <string>#f38ba8</string>
           <key>accent</key>
@@ -1990,6 +1990,28 @@
         </dict>
       </dict>
       <dict>
+        <key>name</key>
+        <string>JSON Keys</string>
+        <key>scope</key>
+        <string>source.json meta.mapping.key string</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#89b4fa</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>JSON key surrounding quotes</string>
+        <key>scope</key>
+        <string>source.json meta.mapping.key punctuation.definition.string.begin, source.json meta.mapping.key punctuation.definition.string.end</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#9399b2</string>
+        </dict>
+      </dict>
+      <dict>
         <key>scope</key>
         <string>markup.heading.synopsis.man, markup.heading.title.man, markup.heading.other.man, markup.heading.env.man</string>
         <key>settings</key>
@@ -2014,6 +2036,44 @@
         <dict>
           <key>foreground</key>
           <string>#f5c2e7</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Man page options</string>
+        <key>scope</key>
+        <string>entity.name</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#94e2d5</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>markup.heading.1.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#f38ba8</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>markup.heading.2.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#fab387</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>markup.heading.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#f9e2af</string>
         </dict>
       </dict>
     </array>

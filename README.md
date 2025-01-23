@@ -7,6 +7,10 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 > [!TIP]
 > If you've created a flavor for Yazi, please raise a PR to add your repo to the `README.md`.
 
+## [dracula.yazi](./dracula.yazi)
+
+<img src="./dracula.yazi/preview.png" width="600" />
+
 ## [catppuccin-mocha.yazi](./catppuccin-mocha.yazi)
 
 <img src="./catppuccin-mocha.yazi/preview.png" width="600" />
