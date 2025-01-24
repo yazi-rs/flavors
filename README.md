@@ -27,6 +27,22 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 
 <img src="./catppuccin-macchiato.yazi/preview.png" width="600" />
 
+## [tokyonight-day.yazi](./tokyonight-day.yazi)
+
+<img src="./tokyonight-day.yazi/preview.png" width="600" />
+
+## [tokyonight-moon.yazi](./tokyonight-moon.yazi)
+
+<img src="./tokyonight-moon.yazi/preview.png" width="600" />
+
+## [tokyonight-night.yazi](./tokyonight-night.yazi)
+
+<img src="./tokyonight-night.yazi/preview.png" width="600" />
+
+## [tokyonight-storm.yazi](./tokyonight-storm.yazi)
+
+<img src="./tokyonight-storm.yazi/preview.png" width="600" />
+
 ## [moonfly.yazi](https://github.com/tkapias/moonfly.yazi)
 
 <img src="https://raw.githubusercontent.com/tkapias/moonfly.yazi/main/preview.png" width="600" />
