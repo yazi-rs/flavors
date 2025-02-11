@@ -79,6 +79,10 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 
 <img src="https://gitlab.com/aimebertrand/timu-macos-yazi/-/raw/main/timu-macos-light.yazi/preview.png" width="600" />
 
+## [Ashen](https://github.com/ashen-org/ashen/tree/main/ashen.yazi)
+
+<img src="https://raw.githubusercontent.com/ashen-org/ashen/refs/heads/main/ashen.yazi/preview.png" width="600" />
+
 ## Themes
 
 We [recommend using the new flavor format](https://yazi-rs.github.io/docs/flavors/overview/#why), but if you're still interested in themes, check out the [Themes](./themes.md) page.
