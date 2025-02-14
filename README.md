@@ -83,6 +83,14 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 
 <img src="https://raw.githubusercontent.com/ashen-org/ashen/refs/heads/main/ashen.yazi/preview.png" width="600" />
 
+## [Flexoki Dark](https://github.com/gosxrgxx/flexoki-dark.yazi)
+
+<img src="https://raw.githubusercontent.com/gosxrgxx/flexoki-dark.yazi/main/preview.png" width="600" />
+
+## [Flexoki Light](https://github.com/gosxrgxx/flexoki-light.yazi)
+
+<img src="https://raw.githubusercontent.com/gosxrgxx/flexoki-light.yazi/main/preview.png" width="600" />
+
 ## Themes
 
 We [recommend using the new flavor format](https://yazi-rs.github.io/docs/flavors/overview/#why), but if you're still interested in themes, check out the [Themes](./themes.md) page.
