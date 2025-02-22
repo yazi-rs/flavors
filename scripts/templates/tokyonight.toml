@@ -1,0 +1,212 @@
+# vim:fileencoding=utf-8:foldmethod=marker
+
+# : Manager {{{
+
+[manager]
+cwd = { fg = "${text_secondary}", italic = true }
+
+# Hovered
+hovered         = { bg = "${surface}" }
+preview_hovered = { bg = "${surface}" }
+
+# Find
+find_keyword  = { fg = "${background_alt}", bg = "${orange}", bold = true }
+find_position = { fg = "${accent}", bg = "${surface3}", bold = true }
+
+# Marker
+marker_copied   = { fg = "${green_light}", bg = "${green_light}" }
+marker_cut      = { fg = "${red}", bg = "${red}" }
+marker_marked   = { fg = "${secondary}", bg = "${secondary}" }
+marker_selected = { fg = "${primary}", bg = "${primary}" }
+
+# Tab
+tab_active   = { fg = "${text}", bg = "${surface}" }
+tab_inactive = { fg = "${onSurface1}", bg = "${background}" }
+tab_width    = 1
+
+# Count
+count_copied   = { fg = "${text}", bg = "${cyan}" }
+count_cut      = { fg = "${text}", bg = "${red_dark}" }
+count_selected = { fg = "${text}", bg = "${blue_dark}" }
+
+# Border
+border_symbol = "│"
+border_style  = { fg = "${border_accent}" }
+
+# : }}}
+
+
+# : Mode {{{
+
+[mode]
+normal_main = { fg = "${text_inverted}", bg = "${primary}", bold = true }
+normal_alt  = { fg = "${primary}", bg = "${surface1}" }
+
+select_main = { fg = "${text_inverted}", bg = "${secondary}", bold = true }
+select_alt  = { fg = "${secondary}", bg = "${surface1}" }
+
+unset_main  = { fg = "${text_inverted}", bg = "${tertiary}", bold = true }
+unset_alt   = { fg = "${tertiary}", bg = "${surface1}" }
+
+# : }}}
+
+
+# : Status bar {{{
+
+[status]
+separator_open    = ""
+separator_close   = ""
+
+# Progress
+progress_label  = { fg = "${text_secondary}", bold = true }
+progress_normal = { fg = "${background}" }
+progress_error  = { fg = "${red}" }
+
+# Permissions
+perm_type  = { fg = "${primary}" }
+perm_read  = { fg = "${yellow}" }
+perm_write = { fg = "${red}" }
+perm_exec  = { fg = "${green}" }
+perm_sep   = { fg = "${onSurface2}" }
+
+# : }}}
+
+
+# : Pick {{{
+
+[pick]
+border   = { fg = "${border_accent}" }
+active   = { fg = "${text}", bg = "${surface2}" }
+inactive = { fg = "${text}" }
+
+# : }}}
+
+
+# : Input {{{
+
+[input]
+border   = { fg = "${accent}" }
+title    = { fg = "${accent}" }
+value    = { fg = "${tertiary}" }
+selected = { bg = "${surface2}" }
+
+# : }}}
+
+
+# : Completion {{{
+
+[completion]
+border   = { fg = "${accent}" }
+active   = { fg = "${text}", bg = "${surface2}" }
+inactive = { fg = "${text}" }
+
+icon_file    = ""
+icon_folder  = ""
+icon_command = ""
+
+# : }}}
+
+
+# : Tasks {{{
+
+[tasks]
+border  = { fg = "${border_accent}" }
+title   = { fg = "${border_accent}" }
+hovered = { fg = "${text}", bg = "${surface2}" }
+
+# : }}}
+
+
+# : Which {{{
+
+[which]
+cols            = 3
+mask            = { bg = "${background_alt}" }
+cand            = { fg = "${cyan_light}" }
+rest            = { fg = "${primary}" }
+desc            = { fg = "${secondary}" }
+separator       = " ➜ "
+separator_style = { fg = "${onSurface3}" }
+
+# : }}}
+
+
+# : Confirm {{{
+
+[confirm]
+border  = { fg = "${accent}" }
+title   = { fg = "${border_accent}" }
+content = {}
+list    = {}
+btn_yes = { bg = "${surface2}" }
+btn_no  = {}
+btn_labels = [ "  [Y]es  ", "  (N)o  " ]
+
+# : }}}
+
+
+# : Spot {{{
+
+[spot]
+border  = { fg = "${border_accent}" }
+title   = { fg = "${border_accent}" }
+
+# : }}}
+
+
+# : Notify {{{
+
+[notify]
+title_info  = { fg = "${accent}" }
+title_warn  = { fg = "${yellow}" }
+title_error = { fg = "${red_dark}" }
+
+icon_error = ""
+icon_warn = ""
+icon_info = ""
+
+# : }}}
+
+
+# : Help {{{
+
+[help]
+on      = { fg = "${green}" }
+run     = { fg = "${secondary}" }
+hovered = { bg = "${surface}" }
+footer  = { fg = "${text}", bg = "${background}" }
+
+# : }}}
+
+
+# : File-specific styles {{{
+
+[filetype]
+
+rules = [
+	# Images
+	{ mime = "image/*", fg = "${yellow}" },
+
+	# Media
+	{ mime = "{audio,video}/*", fg = "${secondary}" },
+
+	# Archives
+	{ mime = "application/*zip", fg = "${red}" },
+	{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "${red}" },
+
+	# Documents
+	{ mime = "application/{pdf,doc,rtf,vnd.*}", fg = "${cyan_light}" },
+
+	# Empty files
+	# { mime = "inode/x-empty", fg = "${red}" },
+
+	# Special files
+	{ name = "*", is = "orphan", bg = "${red}" },
+	{ name = "*", is = "exec"  , fg = "${green}" },
+
+	# Fallback
+	{ name = "*/", fg = "${primary}" }
+]
+
+# : }}}
+
