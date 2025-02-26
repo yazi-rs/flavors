@@ -57,20 +57,17 @@ unset_alt  = { fg = "#ffb86c", bg = "#44475a" }
 # : Status bar {{{
 
 [status]
-separator_open  = ""
-separator_close = ""
-
-# Progress
-progress_label  = { fg = "#ffffff", bold = true }
-progress_normal = { fg = "#bd93f9", bg = "#63667d" }
-progress_error  = { fg = "#ff5555", bg = "#63667d" }
-
 # Permissions
 perm_sep   = { fg = "#7282b5" }
 perm_type  = { fg = "#bd93f9" }
 perm_read  = { fg = "#f1fa8c" }
 perm_write = { fg = "#ff5555" }
 perm_exec  = { fg = "#50fa7b" }
+
+# Progress
+progress_label  = { fg = "#ffffff", bold = true }
+progress_normal = { fg = "#bd93f9", bg = "#63667d" }
+progress_error  = { fg = "#ff5555", bg = "#63667d" }
 
 # : }}}
 

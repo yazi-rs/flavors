@@ -57,20 +57,17 @@ unset_alt  = { fg = "${tertiary}", bg = "${surface}" }
 # : Status bar {{{
 
 [status]
-separator_open  = ""
-separator_close = ""
-
-# Progress
-progress_label  = { fg = "#ffffff", bold = true }
-progress_normal = { fg = "${primary}", bg = "${surface1}" }
-progress_error  = { fg = "${red}", bg = "${surface1}" }
-
 # Permissions
 perm_sep   = { fg = "${onSurface1}" }
 perm_type  = { fg = "${blue}" }
 perm_read  = { fg = "${yellow}" }
 perm_write = { fg = "${red}" }
 perm_exec  = { fg = "${green}" }
+
+# Progress
+progress_label  = { fg = "#ffffff", bold = true }
+progress_normal = { fg = "${primary}", bg = "${surface1}" }
+progress_error  = { fg = "${red}", bg = "${surface1}" }
 
 # : }}}
 
