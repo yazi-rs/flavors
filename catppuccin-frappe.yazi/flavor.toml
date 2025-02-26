@@ -95,7 +95,7 @@ selected = { reversed = true }
 
 # : Completion {{{
 
-[completion]
+[cmp]
 border = { fg = "#8caaee" }
 
 # : }}}
