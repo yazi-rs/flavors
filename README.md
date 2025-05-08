@@ -95,6 +95,22 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 
 <img src="https://raw.githubusercontent.com/gosxrgxx/flexoki-light.yazi/main/preview.png" width="600" />
 
+## [vscode-dark-modern](https://github.com/956MB/vscode-dark-modern.yazi)
+
+<img src="https://raw.githubusercontent.com/956MB/vscode-dark-modern.yazi/refs/heads/main/img/preview.png" width="600" />
+
+## [vscode-light-modern](https://github.com/956MB/vscode-light-modern.yazi)
+
+<img src="https://raw.githubusercontent.com/956MB/vscode-light-modern.yazi/refs/heads/main/img/preview.png" width="600" />
+
+## [vscode-dark-plus](https://github.com/956MB/vscode-dark-plus.yazi)
+
+<img src="https://raw.githubusercontent.com/956MB/vscode-dark-plus.yazi/refs/heads/main/img/preview.png" width="600" />
+
+## [vscode-light-plus](https://github.com/956MB/vscode-light-plus.yazi)
+
+<img src="https://raw.githubusercontent.com/956MB/vscode-light-plus.yazi/refs/heads/main/img/preview.png" width="600" />
+
 ## Themes
 
 We [recommend using the new flavor format](https://yazi-rs.github.io/docs/flavors/overview/#why), but if you're still interested in themes, check out the [Themes](./themes.md) page.
