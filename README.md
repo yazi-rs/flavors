@@ -27,6 +27,10 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 
 <img src="./catppuccin-macchiato.yazi/preview.png" width="600" />
 
+## [nord.yazi](./nord.yazi)
+
+<img src="./nord.yazi/preview.png" width="600" />
+
 ## [moonfly.yazi](https://github.com/tkapias/moonfly.yazi)
 
 <img src="https://raw.githubusercontent.com/tkapias/moonfly.yazi/main/preview.png" width="600" />
