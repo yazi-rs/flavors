@@ -36,6 +36,15 @@ border_style  = { fg = "${onSurface1}" }
 # : }}}
 
 
+# : Tabs {{{
+
+[tabs]
+active   = { fg = "${background}", bg = "${primary}", bold = true }
+inactive = { fg = "${primary}", bg = "${surface}" }
+
+# : }}}
+
+
 # : Mode {{{
 
 [mode]

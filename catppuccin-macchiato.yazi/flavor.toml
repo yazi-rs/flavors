@@ -36,6 +36,15 @@ border_style  = { fg = "#8087a2" }
 # : }}}
 
 
+# : Tabs {{{
+
+[tabs]
+active   = { fg = "#24273a", bg = "#8aadf4", bold = true }
+inactive = { fg = "#8aadf4", bg = "#363a4f" }
+
+# : }}}
+
+
 # : Mode {{{
 
 [mode]
