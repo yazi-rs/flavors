@@ -7,6 +7,14 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 > [!TIP]
 > If you've created a flavor for Yazi, please raise a PR to add your repo to the `README.md`.
 
+## Installation
+
+To install a flavour, run `ya pkg add yazi-rs/flavors:[FLAVOUR]`, eg:
+
+```shell
+ya pkg add yazi-rs/flavors:dracula
+````
+
 ## [dracula.yazi](./dracula.yazi)
 
 <img src="./dracula.yazi/preview.png" width="600" />
