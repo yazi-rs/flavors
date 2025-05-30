@@ -2,7 +2,7 @@
 
 The "flavor" is a pre-made Yazi theme, introduced in Yazi v0.2.4, allowing users to update and expand their color schemes more conveniently.
 
-See https://yazi-rs.github.io/docs/flavors/overview for details.
+See <https://yazi-rs.github.io/docs/flavors/overview> for details.
 
 > [!TIP]
 > If you've created a flavor for Yazi, please raise a PR to add your repo to the `README.md`.
@@ -110,6 +110,10 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 ## [vscode-light-plus](https://github.com/956MB/vscode-light-plus.yazi)
 
 <img src="https://raw.githubusercontent.com/956MB/vscode-light-plus.yazi/refs/heads/main/img/preview.png" width="600" />
+
+## [Nord](https://github.com/AdithyanA2005/nord.yazi)
+
+<img src="https://raw.githubusercontent.com/AdithyanA2005/nord.yazi/refs/heads/main/preview.png" width="600" />
 
 ## Themes
 
