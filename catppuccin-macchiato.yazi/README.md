@@ -13,7 +13,7 @@
 ## 🎨 Installation
 
 ```sh
-ya pack -a yazi-rs/flavors:catppuccin-macchiato
+ya pkg add yazi-rs/flavors:catppuccin-macchiato
 ```
 
 ## ⚙️ Usage

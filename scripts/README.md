@@ -13,7 +13,7 @@
 ## 🎨 Installation
 
 ```sh
-ya pack -a yazi-rs/flavors:${variant}
+ya pkg add yazi-rs/flavors:${variant}
 ```
 
 ## ⚙️ Usage

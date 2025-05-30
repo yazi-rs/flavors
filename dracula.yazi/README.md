@@ -13,7 +13,7 @@
 ## 🎨 Installation
 
 ```sh
-ya pack -a yazi-rs/flavors:dracula
+ya pkg add yazi-rs/flavors:dracula
 ```
 
 ## ⚙️ Usage
