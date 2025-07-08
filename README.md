@@ -113,4 +113,4 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 
 ## Themes
 
-We [recommend using the new flavor format](https://yazi-rs.github.io/docs/flavors/overview/#why), but if you're still interested in themes, check out the [Themes](./themes.md) page.
+We [recommend using the new flavor format](https://yazi-rs.github.io/docs/flavors/overview/#why-flavor), but if you're still interested in themes, check out the [Themes](./themes.md) page.
