@@ -111,6 +111,18 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 
 <img src="https://raw.githubusercontent.com/956MB/vscode-light-plus.yazi/refs/heads/main/img/preview.png" width="600" />
 
+## [rose-pine](https://github.com/Mintass/rose-pine.yazi)
+
+<img src="https://raw.githubusercontent.com/Mintass/rose-pine.yazi/main/preview.png" width="600" />
+
+## [rose-pine-moon](https://github.com/Mintass/rose-pine-moon.yazi)
+
+<img src="https://raw.githubusercontent.com/Mintass/rose-pine-moon.yazi/main/preview.png" width="600" />
+
+## [rose-pine-dawn](https://github.com/Mintass/rose-pine-dawn.yazi)
+
+<img src="https://raw.githubusercontent.com/Mintass/rose-pine-dawn.yazi/main/preview.png" width="600" />
+
 ## Themes
 
 We [recommend using the new flavor format](https://yazi-rs.github.io/docs/flavors/overview/#why-flavor), but if you're still interested in themes, check out the [Themes](./themes.md) page.
