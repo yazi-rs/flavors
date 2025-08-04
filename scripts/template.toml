@@ -19,11 +19,6 @@ marker_cut      = { fg = "${red}", bg = "${red}" }
 marker_marked   = { fg = "${secondary}", bg = "${secondary}" }
 marker_selected = { fg = "${yellow}", bg = "${yellow}" }
 
-# Tab
-tab_active   = { reversed = true }
-tab_inactive = {}
-tab_width    = 1
-
 # Count
 count_copied   = { fg = "${background}", bg = "${green}" }
 count_cut      = { fg = "${background}", bg = "${red}" }

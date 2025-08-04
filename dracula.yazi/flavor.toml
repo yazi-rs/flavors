@@ -19,11 +19,6 @@ marker_cut      = { fg = "#ff5555", bg = "#ff5555" }
 marker_marked   = { fg = "#8be9fd", bg = "#8be9fd" }
 marker_selected = { fg = "#f1fa8c", bg = "#f1fa8c" }
 
-# Tab
-tab_active   = { reversed = true }
-tab_inactive = {}
-tab_width    = 1
-
 # Count
 count_copied   = { fg = "#282a36", bg = "#50fa7b" }
 count_cut      = { fg = "#282a36", bg = "#ff5555" }
