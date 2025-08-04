@@ -167,6 +167,10 @@ rules = [
 	{ mime = "application/{pdf,doc,rtf}", fg = "#40a02b" },
 
 	# Fallback
+	{ url = "*", fg = "#4c4f69" },
+	{ url = "*/", fg = "#1e66f5" },
+
+	# TODO: remove
 	{ name = "*", fg = "#4c4f69" },
 	{ name = "*/", fg = "#1e66f5" }
 ]
