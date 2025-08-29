@@ -176,3 +176,13 @@ rules = [
 ]
 
 # : }}}
+
+# : Spotter {{{
+
+[spot]
+border = { fg = "#8caaee" }
+title  = { fg = "#8caaee" }
+tbl_col = { fg = "#8caaee" }
+tbl_cell = { fg = "#8caaee" }
+
+# : }}}
