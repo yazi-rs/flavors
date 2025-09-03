@@ -71,7 +71,7 @@ perm_exec  = { fg = "${green}" }
 # Progress
 progress_label  = { fg = "#ffffff", bold = true }
 progress_normal = { fg = "${primary}", bg = "${surface1}" }
-progress_error  = { fg = "${red}", bg = "${surface1}" }
+progress_error  = { fg = "${primary}", bg = "${red}" }
 
 # : }}}
 

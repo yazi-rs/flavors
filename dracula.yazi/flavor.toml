@@ -71,7 +71,7 @@ perm_exec  = { fg = "#50fa7b" }
 # Progress
 progress_label  = { fg = "#ffffff", bold = true }
 progress_normal = { fg = "#bd93f9", bg = "#63667d" }
-progress_error  = { fg = "#ff5555", bg = "#63667d" }
+progress_error  = { fg = "#bd93f9", bg = "#ff5555" }
 
 # : }}}
 
