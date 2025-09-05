@@ -139,7 +139,18 @@ footer  = { fg = "#ccd0da", bg = "#4c4f69" }
 # : }}}
 
 
-# : Notify {{{
+# : Spotter {{{
+
+[spot]
+border   = { fg = "#1e66f5" }
+title    = { fg = "#1e66f5" }
+tbl_col  = { fg = "#179299" }
+tbl_cell = { fg = "#ea76cb", bg = "#bcc0cc" }
+
+# : }}}
+
+
+# : Notification {{{
 
 [notify]
 title_info  = { fg = "#40a02b" }

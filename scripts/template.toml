@@ -139,7 +139,18 @@ footer  = { fg = "${surface}", bg = "${text}" }
 # : }}}
 
 
-# : Notify {{{
+# : Spotter {{{
+
+[spot]
+border   = { fg = "${primary}" }
+title    = { fg = "${primary}" }
+tbl_col  = { fg = "${secondary}" }
+tbl_cell = { fg = "${accent}", bg = "${surface1}" }
+
+# : }}}
+
+
+# : Notification {{{
 
 [notify]
 title_info  = { fg = "${green}" }
