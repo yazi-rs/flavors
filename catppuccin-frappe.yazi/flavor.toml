@@ -110,7 +110,7 @@ border = { fg = "#8caaee" }
 [tasks]
 border  = { fg = "#8caaee" }
 title   = {}
-hovered = { fg = "#f4b8e4", underline = true }
+hovered = { fg = "#f4b8e4", bold = true }
 
 # : }}}
 

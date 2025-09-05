@@ -110,7 +110,7 @@ border = { fg = "${primary}" }
 [tasks]
 border  = { fg = "${primary}" }
 title   = {}
-hovered = { fg = "${accent}", underline = true }
+hovered = { fg = "${accent}", bold = true }
 
 # : }}}
 
