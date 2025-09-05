@@ -148,6 +148,15 @@ title_error = { fg = "#ed8796" }
 
 # : }}}
 
+# : Yazi spotter {{{
+
+[spot]
+border   = { fg = "#8aadf4" }
+title    = { fg = "#8aadf4" }
+tbl_col  = { fg = "#8bd5ca" }
+tbl_cell = { fg = "#8087a2" }
+
+# : }}}
 
 # : File-specific styles {{{
 

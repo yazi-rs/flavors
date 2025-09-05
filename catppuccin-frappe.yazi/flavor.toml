@@ -148,6 +148,15 @@ title_error = { fg = "#e78284" }
 
 # : }}}
 
+# : Yazi spotter {{{
+
+[spot]
+border   = { fg = "#8caaee" }
+title    = { fg = "#8caaee" }
+tbl_col  = { fg = "#81c8be" }
+tbl_cell = { fg = "#838ba7" }
+
+# : }}}
 
 # : File-specific styles {{{
 
@@ -174,15 +183,5 @@ rules = [
 	{ name = "*", fg = "#c6d0f5" },
 	{ name = "*/", fg = "#8caaee" }
 ]
-
-# : }}}
-
-# : Spotter {{{
-
-[spot]
-border = { fg = "#8caaee" }
-title  = { fg = "#8caaee" }
-tbl_col = { fg = "#8caaee" }
-tbl_cell = { fg = "#8caaee" }
 
 # : }}}
