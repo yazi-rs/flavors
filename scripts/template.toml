@@ -139,7 +139,18 @@ footer  = { fg = "${surface}", bg = "${text}" }
 # : }}}
 
 
-# : Notify {{{
+# : Spotter {{{
+
+[spot]
+border   = { fg = "${primary}" }
+title    = { fg = "${primary}" }
+tbl_col  = { fg = "${secondary}" }
+tbl_cell = { fg = "${accent}", bg = "${surface1}" }
+
+# : }}}
+
+
+# : Notification {{{
 
 [notify]
 title_info  = { fg = "${green}" }
@@ -148,15 +159,6 @@ title_error = { fg = "${red}" }
 
 # : }}}
 
-# : Yazi spotter {{{
-
-[spot]
-border   = { fg = "${spot_border}" }
-title    = { fg = "${spot_title}" }
-tbl_col  = { fg = "${spot_tbl_col}" }
-tbl_cell = { fg = "${spot_tbl_cell}" }
-
-# : }}}
 
 # : File-specific styles {{{
 

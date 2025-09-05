@@ -139,7 +139,18 @@ footer  = { fg = "#44475a", bg = "#f8f8f2" }
 # : }}}
 
 
-# : Notify {{{
+# : Spotter {{{
+
+[spot]
+border   = { fg = "#bd93f9" }
+title    = { fg = "#bd93f9" }
+tbl_col  = { fg = "#8be9fd" }
+tbl_cell = { fg = "#ff79c6", bg = "#63667d" }
+
+# : }}}
+
+
+# : Notification {{{
 
 [notify]
 title_info  = { fg = "#50fa7b" }
@@ -148,15 +159,6 @@ title_error = { fg = "#ff5555" }
 
 # : }}}
 
-# : Yazi spotter {{{
-
-[spot]
-border   = { fg = "#bd93f9" }
-title    = { fg = "#bd93f9" }
-tbl_col  = { fg = "#8be9fd" }
-tbl_cell = { fg = "#7282b5" }
-
-# : }}}
 
 # : File-specific styles {{{
 

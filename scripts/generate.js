@@ -146,19 +146,11 @@ for (const [name, colors] of Object.entries(VARIANTS)) {
 	}
 
 	// flavor.toml
-    // Define spotter colors from the theme palette
-    const spot = {
-      spot_border:  colors.primary,
-      spot_title:   colors.primary,
-      spot_tbl_col: colors.secondary,
-      spot_tbl_cell: colors.onSurface1,
-    }
-    
-    let s = template
-    for (const [k, v] of Object.entries({ ...colors, ...spot, variant: lowerName })) {
-      s = s.replaceAll(`\${${k}}`, v)
-    }
-    await writeFile(join(wd, "flavor.toml"), s)
+	let s = template
+	for (const [name, color] of Object.entries(colors)) {
+		s = s.replaceAll(`\${${name}}`, color)
+	}
+	await writeFile(join(wd, "flavor.toml"), s.replaceAll("${variant}", lowerName))
 
 	// README.md
 	await writeFile(
