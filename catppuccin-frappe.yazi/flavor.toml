@@ -165,22 +165,19 @@ title_error = { fg = "#e78284" }
 [filetype]
 
 rules = [
-	# Images
+	# Image
 	{ mime = "image/*", fg = "#81c8be" },
-
 	# Media
 	{ mime = "{audio,video}/*", fg = "#e5c890" },
-
-	# Archives
+	# Archive
 	{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#f4b8e4" },
-
-	# Documents
+	# Document
 	{ mime = "application/{pdf,doc,rtf}", fg = "#a6d189" },
-
+	# Virtual file system
+	{ mime = "vfs/*", fg = "#949cbb" },
 	# Fallback
 	{ url = "*", fg = "#c6d0f5" },
 	{ url = "*/", fg = "#8caaee" },
-
 	# TODO: remove
 	{ name = "*", fg = "#c6d0f5" },
 	{ name = "*/", fg = "#8caaee" }
