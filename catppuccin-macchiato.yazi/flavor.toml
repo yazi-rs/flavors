@@ -174,7 +174,7 @@ rules = [
 	# Document
 	{ mime = "application/{pdf,doc,rtf}", fg = "#a6da95" },
 	# Virtual file system
-	{ mime = "vfs/*", fg = "#939ab7" },
+	{ mime = "vfs/{absent,stale}", fg = "#939ab7" },
 	# Fallback
 	{ url = "*", fg = "#cad3f5" },
 	{ url = "*/", fg = "#8aadf4" },
