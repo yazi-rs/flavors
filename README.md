@@ -98,6 +98,10 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 
 <img src="https://raw.githubusercontent.com/Mintass/rose-pine-dawn.yazi/main/preview.png" width="600" />
 
+## [neon.yazi](https://github.com/tomer-ben-david/neon.yazi)
+
+<img src="https://raw.githubusercontent.com/tomer-ben-david/neon.yazi/main/preview.png" width="600" />
+
 ## Themes
 
 We [recommend using the new flavor format](https://yazi-rs.github.io/docs/flavors/overview/#why-flavor), but if you're still interested in themes, check out the [Themes](./themes.md) page.
