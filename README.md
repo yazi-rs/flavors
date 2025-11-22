@@ -70,22 +70,6 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 
 <img src="https://raw.githubusercontent.com/gosxrgxx/flexoki-light.yazi/main/preview.png" width="600" />
 
-## [vscode-dark-modern](https://github.com/956MB/vscode-dark-modern.yazi)
-
-<img src="https://raw.githubusercontent.com/956MB/vscode-dark-modern.yazi/refs/heads/main/img/preview.png" width="600" />
-
-## [vscode-light-modern](https://github.com/956MB/vscode-light-modern.yazi)
-
-<img src="https://raw.githubusercontent.com/956MB/vscode-light-modern.yazi/refs/heads/main/img/preview.png" width="600" />
-
-## [vscode-dark-plus](https://github.com/956MB/vscode-dark-plus.yazi)
-
-<img src="https://raw.githubusercontent.com/956MB/vscode-dark-plus.yazi/refs/heads/main/img/preview.png" width="600" />
-
-## [vscode-light-plus](https://github.com/956MB/vscode-light-plus.yazi)
-
-<img src="https://raw.githubusercontent.com/956MB/vscode-light-plus.yazi/refs/heads/main/img/preview.png" width="600" />
-
 ## [rose-pine](https://github.com/Mintass/rose-pine.yazi)
 
 <img src="https://raw.githubusercontent.com/Mintass/rose-pine.yazi/main/preview.png" width="600" />
