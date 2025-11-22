@@ -2,7 +2,7 @@
 
 The "flavor" is a pre-made Yazi theme, introduced in Yazi v0.2.4, allowing users to update and expand their color schemes more conveniently.
 
-See https://yazi-rs.github.io/docs/flavors/overview for details.
+See <https://yazi-rs.github.io/docs/flavors/overview> for details.
 
 > [!IMPORTANT]
 > Please check if a flavor is compatible with your version of Yazi before using it, see [Why is my flavor/theme not working?](https://yazi-rs.github.io/docs/flavors/overview#why-not-working) for details.
@@ -85,6 +85,10 @@ See https://yazi-rs.github.io/docs/flavors/overview for details.
 ## [neon.yazi](https://github.com/tomer-ben-david/neon.yazi)
 
 <img src="https://raw.githubusercontent.com/tomer-ben-david/neon.yazi/main/preview.png" width="600" />
+
+## [Nord](https://github.com/AdithyanA2005/nord.yazi)
+
+<img src="https://raw.githubusercontent.com/AdithyanA2005/nord.yazi/refs/heads/main/preview.png" width="600" />
 
 ## Themes
 
