@@ -90,6 +90,10 @@ See <https://yazi-rs.github.io/docs/flavors/overview> for details.
 
 <img src="https://raw.githubusercontent.com/AdithyanA2005/nord.yazi/refs/heads/main/preview.png" width="600" />
 
+## [Synthwave'84](https://github.com/Miuzarte/synthwave84.yazi)
+
+<img src="https://raw.githubusercontent.com/Miuzarte/synthwave84.yazi/refs/heads/main/preview.png" width="600" />
+
 ## Themes
 
 We [recommend using the new flavor format](https://yazi-rs.github.io/docs/flavors/overview/#why-flavor), but if you're still interested in themes, check out the [Themes](./themes.md) page.
