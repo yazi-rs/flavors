@@ -5,6 +5,7 @@
 [mgr]
 cwd = { fg = "#94e2d5" }
 
+# TODO: remove
 # Hovered
 hovered         = { reversed = true }
 preview_hovered = { underline = true }
