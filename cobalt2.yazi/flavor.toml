@@ -1,0 +1,57 @@
+# ==============================================================================
+# Cobalt2 Yazi Flavor (Final, Community-Ready)
+# ==============================================================================
+
+[mgr]
+bg = "#132738"
+fg = "#ffffff"
+hovered  = { fg = "#ffc600", bold = true }
+selected = { bg = "#234E6D" }
+cursor   = { fg = "#132738", bg = "#ffc600", bold = true }
+inaccessible = { fg = "#ff0088" }
+
+[preview]
+bg = "#132738"
+fg = "#ffffff"
+
+[header]
+bg = "#132738"
+fg = "#ffc600"
+bold = true
+
+[footer]
+bg = "#132738"
+fg = "#ffc600"
+
+[status]
+normal = { fg = "#132738", bg = "#ffc600", bold = true }
+select = { fg = "#132738", bg = "#FF9D00", bold = true }
+visual = { fg = "#132738", bg = "#ff0088", bold = true }
+
+[tabs]
+active   = { fg = "#ffc600", bg = "#132738", bold = true }
+inactive = { fg = "#7997B0", bg = "#132738" }
+
+[tasks]
+bg = "#132738"
+hovered = { bg = "#234E6D" }
+success = { fg = "#2AFFDF" }
+failure = { fg = "#ff0088" }
+running = { fg = "#ffc600" }
+
+[filetype]
+dir          = { fg = "#2AFFDF", bold = true }
+exe          = { fg = "#ff0088", bold = true }
+link         = { fg = "#FF9D00" }
+link_to_dir  = { fg = "#2AFFDF", bold = true, italic = true }
+compress     = { fg = "#ffc600" }
+image        = { fg = "#2AFFDF" }
+video        = { fg = "#2AFFDF" }
+audio        = { fg = "#2AFFDF" }
+
+# Optional extended markers for community completeness
+[marker]
+marked    = { fg = "#ffc600" }
+permanent = { fg = "#FF9D00" }
+temporary = { fg = "#7997B0" }
+broken    = { fg = "#ff0088" }
