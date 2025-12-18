@@ -96,11 +96,11 @@ See <https://yazi-rs.github.io/docs/flavors/overview> for details.
 
 ## [Bluloco Dark](https://github.com/hankertrix/bluloco-yazi/tree/main/bluloco-dark.yazi)
 
-<img src="https://github.com/user-attachments/assets/1d96ebff-2793-441a-a797-1589e4101de7" width="600" />
+<img src="https://raw.githubusercontent.com/hankertrix/bluloco-yazi/refs/heads/main/bluloco-dark.yazi/preview.png" width="600" />
 
 ## [Bluloco Light](https://github.com/hankertrix/bluloco-yazi/tree/main/bluloco-light.yazi)
 
-<img src="https://github.com/user-attachments/assets/82c2ce69-b3a3-49ca-aa7e-4dc816589502" width="600" />
+<img src="https://raw.githubusercontent.com/hankertrix/bluloco-yazi/refs/heads/main/bluloco-light.yazi/preview.png" width="600" />
 
 ## Themes
 
