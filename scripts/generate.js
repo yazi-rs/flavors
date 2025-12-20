@@ -131,6 +131,31 @@ const VARIANTS = {
 		_tmtheme: "https://raw.githubusercontent.com/catppuccin/bat/refs/heads/main/themes/Catppuccin%20Frappe.tmTheme",
 		_tmthemeLicense: "https://raw.githubusercontent.com/catppuccin/bat/refs/heads/main/LICENSE",
 	},
+	"Cobalt2": {
+        text: "#ffffff",
+        background: "#132738",
+
+        primary: "#ffc600",   
+        secondary: "#2AFFDF", 
+        tertiary: "#FF9D00",  
+        accent: "#ff0088",    
+
+        surface: "#234E6D",   
+        surface1: "#193549",  
+        surface2: "#7997B0",  
+
+        onSurface: "#7997B0",
+        onSurface1: "#e1efff",
+        onSurface2: "#ffffff",
+
+        red: "#ff0088",
+        green: "#2AFFDF",
+        blue: "#193549",
+        yellow: "#ffc600",
+
+        _tmtheme: "https://raw.githubusercontent.com/wesbos/cobalt2/master/cobalt2.tmTheme",
+        _tmthemeLicense: "https://raw.githubusercontent.com/wesbos/cobalt2/master/readme.md",
+    },
 }
 
 const template = await readFile(join(__dirname, "./template.toml"), "utf8")
