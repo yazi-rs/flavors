@@ -154,7 +154,7 @@ const VARIANTS = {
         yellow: "#ffc600",
 
         _tmtheme: "https://raw.githubusercontent.com/wesbos/cobalt2/master/cobalt2.tmTheme",
-        _tmthemeLicense: "https://raw.githubusercontent.com/wesbos/cobalt2/master/readme.md",
+        _tmthemeLicense: "https://raw.githubusercontent.com/wesbos/cobalt2-vscode/master/LICENSE",
     },
 }
 
