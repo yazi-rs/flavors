@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>Cobalt2 (Yazi)</string>
+
+  <key>settings</key>
+  <array>
+
+    <!-- ========================= -->
+    <!-- Global -->
+    <!-- ========================= -->
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#132738</string>
+        <key>foreground</key>
+        <string>#FFFFFF</string>
+        <key>caret</key>
+        <string>#FFC600</string>
+        <key>selection</key>
+        <string>#234E6D</string>
+        <key>lineHighlight</key>
+        <string>#1E3F59</string>
+      </dict>
+    </dict>
+
+    <!-- ========================= -->
+    <!-- Comments -->
+    <!-- ========================= -->
+    <dict>
+      <key>name</key>
+      <string>Comment</string>
+      <key>scope</key>
+      <string>comment</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#7997B0</string>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+
+    <!-- ========================= -->
+    <!-- Keywords -->
+    <!-- ========================= -->
+    <dict>
+      <key>name</key>
+      <string>Keyword</string>
+      <key>scope</key>
+      <string>keyword, storage.type</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FF0088</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <!-- ========================= -->
+    <!-- Types -->
+    <!-- ========================= -->
+    <dict>
+      <key>name</key>
+      <string>Type</string>
+      <key>scope</key>
+      <string>entity.name.type, support.type</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#2AFFDF</string>
+      </dict>
+    </dict>
+
+    <!-- ========================= -->
+    <!-- Functions -->
+    <!-- ========================= -->
+    <dict>
+      <key>name</key>
+      <string>Function</string>
+      <key>scope</key>
+      <string>entity.name.function</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFC600</string>
+      </dict>
+    </dict>
+
+    <!-- ========================= -->
+    <!-- Variables -->
+    <!-- ========================= -->
+    <dict>
+      <key>name</key>
+      <string>Variable</string>
+      <key>scope</key>
+      <string>variable</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFFFFF</string>
+      </dict>
+    </dict>
+
+    <!-- ========================= -->
+    <!-- Strings -->
+    <!-- ========================= -->
+    <dict>
+      <key>name</key>
+      <string>String</string>
+      <key>scope</key>
+      <string>string</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#2AFFDF</string>
+      </dict>
+    </dict>
+
+    <!-- ========================= -->
+    <!-- Numbers / Constants -->
+    <!-- ========================= -->
+    <dict>
+      <key>name</key>
+      <string>Constant</string>
+      <key>scope</key>
+      <string>constant.numeric, constant.language</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#2AFFDF</string>
+      </dict>
+    </dict>
+
+    <!-- ========================= -->
+    <!-- Operators -->
+    <!-- ========================= -->
+    <dict>
+      <key>name</key>
+      <string>Operator</string>
+      <key>scope</key>
+      <string>keyword.operator</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FF0088</string>
+      </dict>
+    </dict>
+
+    <!-- ========================= -->
+    <!-- Properties / Attributes -->
+    <!-- ========================= -->
+    <dict>
+      <key>name</key>
+      <string>Property</string>
+      <key>scope</key>
+      <string>variable.other.property, entity.other.attribute-name</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FF9D00</string>
+      </dict>
+    </dict>
+
+  </array>
+</dict>
+</plist>
+
