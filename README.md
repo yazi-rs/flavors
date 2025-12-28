@@ -94,6 +94,18 @@ See <https://yazi-rs.github.io/docs/flavors/overview> for details.
 
 <img src="https://raw.githubusercontent.com/Miuzarte/synthwave84.yazi/refs/heads/main/preview.png" width="600" />
 
+## [Bluloco Dark](https://github.com/hankertrix/bluloco-yazi/tree/main/bluloco-dark.yazi)
+
+<img src="https://raw.githubusercontent.com/hankertrix/bluloco-yazi/refs/heads/main/bluloco-dark.yazi/preview.png" width="600" />
+
+## [Bluloco Light](https://github.com/hankertrix/bluloco-yazi/tree/main/bluloco-light.yazi)
+
+<img src="https://raw.githubusercontent.com/hankertrix/bluloco-yazi/refs/heads/main/bluloco-light.yazi/preview.png" width="600" />
+
+## [Monokai](https://github.com/Malick-Tammal/monokai.yazi)
+
+<img src="https://raw.githubusercontent.com/Malick-Tammal/monokai.yazi/main/preview.webp" width="600" />
+
 ## Themes
 
 We [recommend using the new flavor format](https://yazi-rs.github.io/docs/flavors/overview/#why-flavor), but if you're still interested in themes, check out the [Themes](./themes.md) page.
