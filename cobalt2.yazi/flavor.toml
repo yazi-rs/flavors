@@ -1,57 +1,187 @@
-# ==============================================================================
-# Cobalt2 Yazi Flavor (Final, Community-Ready)
-# ==============================================================================
+# vim:fileencoding=utf-8:foldmethod=marker
+
+# : Manager {{{
 
 [mgr]
-bg = "#132738"
-fg = "#ffffff"
-hovered  = { fg = "#ffc600", bold = true }
-selected = { bg = "#234E6D" }
-cursor   = { fg = "#132738", bg = "#ffc600", bold = true }
-inaccessible = { fg = "#ff0088" }
+cwd = { fg = "#2AFFDF" }
 
-[preview]
-bg = "#132738"
-fg = "#ffffff"
+# TODO: remove
+# Hovered
+hovered         = { reversed = true }
+preview_hovered = { underline = true }
 
-[header]
-bg = "#132738"
-fg = "#ffc600"
-bold = true
+# Find
+find_keyword  = { fg = "#ffc600", bold = true, italic = true, underline = true }
+find_position = { fg = "#ff0088", bg = "reset", bold = true, italic = true }
 
-[footer]
-bg = "#132738"
-fg = "#ffc600"
+# Marker
+marker_copied   = { fg = "#2AFFDF", bg = "#2AFFDF" }
+marker_cut      = { fg = "#ff0088", bg = "#ff0088" }
+marker_marked   = { fg = "#2AFFDF", bg = "#2AFFDF" }
+marker_selected = { fg = "#ffc600", bg = "#ffc600" }
 
-[status]
-normal = { fg = "#132738", bg = "#ffc600", bold = true }
-select = { fg = "#132738", bg = "#FF9D00", bold = true }
-visual = { fg = "#132738", bg = "#ff0088", bold = true }
+# Count
+count_copied   = { fg = "#132738", bg = "#2AFFDF" }
+count_cut      = { fg = "#132738", bg = "#ff0088" }
+count_selected = { fg = "#132738", bg = "#ffc600" }
+
+# Border
+border_symbol = "│"
+border_style  = { fg = "#e1efff" }
+
+# : }}}
+
+
+# : Tabs {{{
 
 [tabs]
-active   = { fg = "#ffc600", bg = "#132738", bold = true }
-inactive = { fg = "#7997B0", bg = "#132738" }
+active   = { fg = "#132738", bg = "#ffc600", bold = true }
+inactive = { fg = "#ffc600", bg = "#234E6D" }
+
+# : }}}
+
+
+# : Mode {{{
+
+[mode]
+
+normal_main = { fg = "#132738", bg = "#ffc600", bold = true }
+normal_alt  = { fg = "#ffc600", bg = "#234E6D" }
+
+# Select mode
+select_main = { fg = "#132738", bg = "#2AFFDF", bold = true }
+select_alt  = { fg = "#2AFFDF", bg = "#234E6D" }
+
+# Unset mode
+unset_main = { fg = "#132738", bg = "#FF9D00", bold = true }
+unset_alt  = { fg = "#FF9D00", bg = "#234E6D" }
+
+# : }}}
+
+
+# : Status bar {{{
+
+[status]
+# Permissions
+perm_sep   = { fg = "#e1efff" }
+perm_type  = { fg = "#193549" }
+perm_read  = { fg = "#ffc600" }
+perm_write = { fg = "#ff0088" }
+perm_exec  = { fg = "#2AFFDF" }
+
+# Progress
+progress_label  = { fg = "#ffffff", bold = true }
+progress_normal = { fg = "#2AFFDF", bg = "#193549" }
+progress_error  = { fg = "#ffc600", bg = "#ff0088" }
+
+# : }}}
+
+
+# : Pick {{{
+
+[pick]
+border   = { fg = "#ffc600" }
+active   = { fg = "#ff0088", bold = true }
+inactive = {}
+
+# : }}}
+
+
+# : Input {{{
+
+[input]
+border   = { fg = "#ffc600" }
+title    = {}
+value    = {}
+selected = { reversed = true }
+
+# : }}}
+
+
+# : Completion {{{
+
+[cmp]
+border = { fg = "#ffc600" }
+
+# : }}}
+
+
+# : Tasks {{{
 
 [tasks]
-bg = "#132738"
-hovered = { bg = "#234E6D" }
-success = { fg = "#2AFFDF" }
-failure = { fg = "#ff0088" }
-running = { fg = "#ffc600" }
+border  = { fg = "#ffc600" }
+title   = {}
+hovered = { fg = "#ff0088", bold = true }
+
+# : }}}
+
+
+# : Which {{{
+
+[which]
+mask            = { bg = "#234E6D" }
+cand            = { fg = "#2AFFDF" }
+rest            = { fg = "#ffffff" }
+desc            = { fg = "#ff0088" }
+separator       = "  "
+separator_style = { fg = "#7997B0" }
+
+# : }}}
+
+
+# : Help {{{
+
+[help]
+on      = { fg = "#2AFFDF" }
+run     = { fg = "#ff0088" }
+hovered = { reversed = true, bold = true }
+footer  = { fg = "#234E6D", bg = "#ffffff" }
+
+# : }}}
+
+
+# : Spotter {{{
+
+[spot]
+border   = { fg = "#ffc600" }
+title    = { fg = "#ffc600" }
+tbl_col  = { fg = "#2AFFDF" }
+tbl_cell = { fg = "#ff0088", bg = "#193549" }
+
+# : }}}
+
+
+# : Notification {{{
+
+[notify]
+title_info  = { fg = "#2AFFDF" }
+title_warn  = { fg = "#ffc600" }
+title_error = { fg = "#ff0088" }
+
+# : }}}
+
+
+# : File-specific styles {{{
 
 [filetype]
-dir          = { fg = "#2AFFDF", bold = true }
-exe          = { fg = "#ff0088", bold = true }
-link         = { fg = "#FF9D00" }
-link_to_dir  = { fg = "#2AFFDF", bold = true, italic = true }
-compress     = { fg = "#ffc600" }
-image        = { fg = "#2AFFDF" }
-video        = { fg = "#2AFFDF" }
-audio        = { fg = "#2AFFDF" }
 
-# Optional extended markers for community completeness
-[marker]
-marked    = { fg = "#ffc600" }
-permanent = { fg = "#FF9D00" }
-temporary = { fg = "#7997B0" }
-broken    = { fg = "#ff0088" }
+rules = [
+	# Image
+	{ mime = "image/*", fg = "#2AFFDF" },
+	# Media
+	{ mime = "{audio,video}/*", fg = "#ffc600" },
+	# Archive
+	{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#ff0088" },
+	# Document
+	{ mime = "application/{pdf,doc,rtf}", fg = "#2AFFDF" },
+	# Virtual file system
+	{ mime = "vfs/{absent,stale}", fg = "#ffffff" },
+	# Fallback
+	{ url = "*", fg = "#ffffff" },
+	{ url = "*/", fg = "#ffc600" },
+	# TODO: remove
+	{ name = "*", fg = "#ffffff" },
+	{ name = "*/", fg = "#ffc600" }
+]
+
+# : }}}
