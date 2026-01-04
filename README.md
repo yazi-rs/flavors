@@ -106,6 +106,10 @@ See <https://yazi-rs.github.io/docs/flavors/overview> for details.
 
 <img src="https://raw.githubusercontent.com/Malick-Tammal/monokai.yazi/main/preview.webp" width="600" />
 
+## [Eldritch](https://github.com/6ruby1/eldritch.yazi)
+
+<img src="https://raw.githubusercontent.com/6ruby1/eldritch.yazi/main/preview.png" width="600" />
+
 ## Themes
 
 We [recommend using the new flavor format](https://yazi-rs.github.io/docs/flavors/overview/#why-flavor), but if you're still interested in themes, check out the [Themes](./themes.md) page.
