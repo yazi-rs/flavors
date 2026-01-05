@@ -104,7 +104,7 @@ See <https://yazi-rs.github.io/docs/flavors/overview> for details.
 
 ## [Monokai](https://github.com/Malick-Tammal/monokai.yazi)
 
-<img src="https://raw.githubusercontent.com/Malick-Tammal/monokai.yazi/main/preview.webp" width="600" />
+<img src="https://raw.githubusercontent.com/Malick-Tammal/monokai.yazi/main/preview.png" width="600" />
 
 ## [Eldritch](https://github.com/6ruby1/eldritch.yazi)
 
