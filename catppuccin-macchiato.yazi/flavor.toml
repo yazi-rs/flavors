@@ -5,11 +5,6 @@
 [mgr]
 cwd = { fg = "#8bd5ca" }
 
-# TODO: remove
-# Hovered
-hovered         = { reversed = true }
-preview_hovered = { underline = true }
-
 # Find
 find_keyword  = { fg = "#eed49f", bold = true, italic = true, underline = true }
 find_position = { fg = "#f5bde6", bg = "reset", bold = true, italic = true }
@@ -179,9 +174,41 @@ rules = [
 	# Fallback
 	{ url = "*", fg = "#cad3f5" },
 	{ url = "*/", fg = "#8aadf4" },
-	# TODO: remove
-	{ name = "*", fg = "#cad3f5" },
-	{ name = "*/", fg = "#8aadf4" }
 ]
 
 # : }}}
+
+[icon]
+
+dirs = [
+	{ name = ".config", text = "", fg = "#f5bde6" },
+	{ name = ".git", text = "", fg = "#8bd5ca" },
+	{ name = ".github", text = "", fg = "#8aadf4" },
+	{ name = ".npm", text = "", fg = "#8aadf4" },
+	{ name = "Desktop", text = "", fg = "#8bd5ca" },
+	{ name = "Development", text = "", fg = "#8bd5ca" },
+	{ name = "Documents", text = "", fg = "#8bd5ca" },
+	{ name = "Downloads", text = "", fg = "#8bd5ca" },
+	{ name = "Library", text = "", fg = "#8bd5ca" },
+	{ name = "Movies", text = "", fg = "#8bd5ca" },
+	{ name = "Music", text = "", fg = "#8bd5ca" },
+	{ name = "Pictures", text = "", fg = "#8bd5ca" },
+	{ name = "Public", text = "", fg = "#8bd5ca" },
+	{ name = "Videos", text = "", fg = "#8bd5ca" },
+]
+conds = [
+	# Special files
+	{ if = "orphan", text = "", fg = "#cad3f5" },
+	{ if = "link", text = "", fg = "#8087a2" },
+	{ if = "block", text = "", fg = "#f0c6c6" },
+	{ if = "char", text = "", fg = "#f0c6c6" },
+	{ if = "fifo", text = "", fg = "#f0c6c6" },
+	{ if = "sock", text = "", fg = "#f0c6c6" },
+	{ if = "sticky", text = "", fg = "#f0c6c6" },
+	{ if = "dummy", text = "", fg = "#ed8796" },
+
+	# Fallback
+	{ if = "dir", text = "", fg = "#8aadf4" },
+	{ if = "exec", text = "", fg = "#a6da95" },
+	{ if = "!dir", text = "", fg = "#cad3f5" },
+]

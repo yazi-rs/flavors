@@ -5,11 +5,6 @@
 [mgr]
 cwd = { fg = "${secondary}" }
 
-# TODO: remove
-# Hovered
-hovered         = { reversed = true }
-preview_hovered = { underline = true }
-
 # Find
 find_keyword  = { fg = "${yellow}", bold = true, italic = true, underline = true }
 find_position = { fg = "${accent}", bg = "reset", bold = true, italic = true }
@@ -179,9 +174,41 @@ rules = [
 	# Fallback
 	{ url = "*", fg = "${text}" },
 	{ url = "*/", fg = "${primary}" },
-	# TODO: remove
-	{ name = "*", fg = "${text}" },
-	{ name = "*/", fg = "${primary}" }
 ]
 
 # : }}}
+
+[icon]
+
+dirs = [
+	{ name = ".config", text = "", fg = "${accent}" },
+	{ name = ".git", text = "", fg = "${secondary}" },
+	{ name = ".github", text = "", fg = "${primary}" },
+	{ name = ".npm", text = "", fg = "${primary}" },
+	{ name = "Desktop", text = "", fg = "${secondary}" },
+	{ name = "Development", text = "", fg = "${secondary}" },
+	{ name = "Documents", text = "", fg = "${secondary}" },
+	{ name = "Downloads", text = "", fg = "${secondary}" },
+	{ name = "Library", text = "", fg = "${secondary}" },
+	{ name = "Movies", text = "", fg = "${secondary}" },
+	{ name = "Music", text = "", fg = "${secondary}" },
+	{ name = "Pictures", text = "", fg = "${secondary}" },
+	{ name = "Public", text = "", fg = "${secondary}" },
+	{ name = "Videos", text = "", fg = "${secondary}" },
+]
+conds = [
+	# Special files
+	{ if = "orphan", text = "", fg = "${text}" },
+	{ if = "link", text = "", fg = "${onSurface1}" },
+	{ if = "block", text = "", fg = "${tertiary}" },
+	{ if = "char", text = "", fg = "${tertiary}" },
+	{ if = "fifo", text = "", fg = "${tertiary}" },
+	{ if = "sock", text = "", fg = "${tertiary}" },
+	{ if = "sticky", text = "", fg = "${tertiary}" },
+	{ if = "dummy", text = "", fg = "${red}" },
+
+	# Fallback
+	{ if = "dir", text = "", fg = "${blue}" },
+	{ if = "exec", text = "", fg = "${green}" },
+	{ if = "!dir", text = "", fg = "${text}" },
+]
