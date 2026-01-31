@@ -110,6 +110,10 @@ See <https://yazi-rs.github.io/docs/flavors/overview> for details.
 
 <img src="https://raw.githubusercontent.com/6ruby1/eldritch.yazi/main/preview.png" width="600" />
 
+## [Modus](https://github.com/azzamsa/modus.yazi)
+
+<img src="https://github.com/user-attachments/assets/51b9a15b-ad9a-4f7c-80b5-44b04864ba21" width="600" />
+
 ## Themes
 
 We [recommend using the new flavor format](https://yazi-rs.github.io/docs/flavors/overview/#why-flavor), but if you're still interested in themes, check out the [Themes](./themes.md) page.
