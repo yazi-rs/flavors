@@ -54,35 +54,35 @@ See <https://yazi-rs.github.io/docs/flavors/overview> for details.
 
 <img src="https://raw.githubusercontent.com/matt-dong-123/gruvbox-material.yazi/main/preview.png" width="600" />
 
-## [Ayu Dark](https://github.com/kmlupreti/ayu-dark.yazi)
+## [ayu-dark.yazi](https://github.com/kmlupreti/ayu-dark.yazi)
 
 <img src="https://raw.githubusercontent.com/kmlupreti/ayu-dark.yazi/main/preview.png" width="600" />
 
-## [Everforest Medium](https://github.com/Chromium-3-Oxide/everforest-medium.yazi)
+## [everforest-medium.yazi](https://github.com/Chromium-3-Oxide/everforest-medium.yazi)
 
 <img src="https://raw.githubusercontent.com/Chromium-3-Oxide/everforest-medium.yazi/main/preview.png" width="600" />
 
-## [Ashen](https://github.com/ficcdaf/ashen/tree/main/ashen.yazi)
+## [ashen.yazi](https://github.com/ficcdaf/ashen/tree/main/ashen.yazi)
 
 <img src="https://raw.githubusercontent.com/ashen-org/ashen/refs/heads/main/ashen.yazi/preview.png" width="600" />
 
-## [Flexoki Dark](https://github.com/gosxrgxx/flexoki-dark.yazi)
+## [flexoki-dark.yazi](https://github.com/gosxrgxx/flexoki-dark.yazi)
 
 <img src="https://raw.githubusercontent.com/gosxrgxx/flexoki-dark.yazi/main/preview.png" width="600" />
 
-## [Flexoki Light](https://github.com/gosxrgxx/flexoki-light.yazi)
+## [flexoki-light.yazi](https://github.com/gosxrgxx/flexoki-light.yazi)
 
 <img src="https://raw.githubusercontent.com/gosxrgxx/flexoki-light.yazi/main/preview.png" width="600" />
 
-## [rose-pine](https://github.com/Mintass/rose-pine.yazi)
+## [rose-pine.yazi](https://github.com/Mintass/rose-pine.yazi)
 
 <img src="https://raw.githubusercontent.com/Mintass/rose-pine.yazi/main/preview.png" width="600" />
 
-## [rose-pine-moon](https://github.com/Mintass/rose-pine-moon.yazi)
+## [rose-pine-moon.yazi](https://github.com/Mintass/rose-pine-moon.yazi)
 
 <img src="https://raw.githubusercontent.com/Mintass/rose-pine-moon.yazi/main/preview.png" width="600" />
 
-## [rose-pine-dawn](https://github.com/Mintass/rose-pine-dawn.yazi)
+## [rose-pine-dawn.yazi](https://github.com/Mintass/rose-pine-dawn.yazi)
 
 <img src="https://raw.githubusercontent.com/Mintass/rose-pine-dawn.yazi/main/preview.png" width="600" />
 
@@ -90,35 +90,35 @@ See <https://yazi-rs.github.io/docs/flavors/overview> for details.
 
 <img src="https://raw.githubusercontent.com/tomer-ben-david/neon.yazi/main/preview.png" width="600" />
 
-## [Nord](https://github.com/AdithyanA2005/nord.yazi)
+## [nord.yazi](https://github.com/AdithyanA2005/nord.yazi)
 
 <img src="https://raw.githubusercontent.com/AdithyanA2005/nord.yazi/refs/heads/main/preview.png" width="600" />
 
-## [Synthwave'84](https://github.com/Miuzarte/synthwave84.yazi)
+## [synthwave84.yazi](https://github.com/Miuzarte/synthwave84.yazi)
 
 <img src="https://raw.githubusercontent.com/Miuzarte/synthwave84.yazi/refs/heads/main/preview.png" width="600" />
 
-## [Bluloco Dark](https://github.com/hankertrix/bluloco-yazi/tree/main/bluloco-dark.yazi)
+## [bluloco-dark.yazi](https://github.com/hankertrix/bluloco-yazi/tree/main/bluloco-dark.yazi)
 
 <img src="https://raw.githubusercontent.com/hankertrix/bluloco-yazi/refs/heads/main/bluloco-dark.yazi/preview.png" width="600" />
 
-## [Bluloco Light](https://github.com/hankertrix/bluloco-yazi/tree/main/bluloco-light.yazi)
+## [bluloco-light.yazi](https://github.com/hankertrix/bluloco-yazi/tree/main/bluloco-light.yazi)
 
 <img src="https://raw.githubusercontent.com/hankertrix/bluloco-yazi/refs/heads/main/bluloco-light.yazi/preview.png" width="600" />
 
-## [Monokai](https://github.com/Malick-Tammal/monokai.yazi)
+## [monokai.yazi](https://github.com/Malick-Tammal/monokai.yazi)
 
 <img src="https://raw.githubusercontent.com/Malick-Tammal/monokai.yazi/main/preview.png" width="600" />
 
-## [Eldritch](https://github.com/6ruby1/eldritch.yazi)
+## [eldritch.yazi](https://github.com/6ruby1/eldritch.yazi)
 
 <img src="https://raw.githubusercontent.com/6ruby1/eldritch.yazi/main/preview.png" width="600" />
 
-## [Modus](https://github.com/azzamsa/modus.yazi)
+## [modus.yazi](https://github.com/azzamsa/modus.yazi)
 
 <img src="https://github.com/user-attachments/assets/51b9a15b-ad9a-4f7c-80b5-44b04864ba21" width="600" />
 
-## [obsidian-glow](https://github.com/ZimCodes/yazi-flavors/tree/main/obsidian-glow.yazi) / [Soft variant](https://github.com/ZimCodes/yazi-flavors/tree/main/obsidian-soft-glow.yazi)
+## [obsidian-glow.yazi](https://github.com/ZimCodes/yazi-flavors/tree/main/obsidian-glow.yazi) / [obsidian-soft-glow.yazi](https://github.com/ZimCodes/yazi-flavors/tree/main/obsidian-soft-glow.yazi)
 
 <img src="https://raw.githubusercontent.com/ZimCodes/yazi-flavors/refs/heads/main/obsidian-glow.yazi/preview.png" width="600" />
 
