@@ -118,9 +118,9 @@ See <https://yazi-rs.github.io/docs/flavors/overview> for details.
 
 <img src="https://github.com/user-attachments/assets/51b9a15b-ad9a-4f7c-80b5-44b04864ba21" width="600" />
 
-## [obsidian-veil](https://github.com/ZimCodes/obsidian-veil.yazi)
+## [obsidian-glow](https://github.com/ZimCodes/yazi-flavors/tree/main/obsidian-glow.yazi) / [Soft variant](https://github.com/ZimCodes/yazi-flavors/tree/main/obsidian-soft-glow.yazi)
 
-<img src="https://raw.githubusercontent.com/ZimCodes/obsidian-veil.yazi/f98583ef39fb572f4e5c53d379b83559e4474695/preview.png" width="600" />
+<img src="https://raw.githubusercontent.com/ZimCodes/yazi-flavors/refs/heads/main/obsidian-glow.yazi/preview.png" width="600" />
 
 ## Themes
 
