@@ -118,6 +118,10 @@ See <https://yazi-rs.github.io/docs/flavors/overview> for details.
 
 <img src="https://github.com/user-attachments/assets/51b9a15b-ad9a-4f7c-80b5-44b04864ba21" width="600" />
 
+## [obsidian-glow](https://github.com/ZimCodes/yazi-flavors/tree/main/obsidian-glow.yazi) / [Soft variant](https://github.com/ZimCodes/yazi-flavors/tree/main/obsidian-soft-glow.yazi)
+
+<img src="https://raw.githubusercontent.com/ZimCodes/yazi-flavors/refs/heads/main/obsidian-glow.yazi/preview.png" width="600" />
+
 ## Themes
 
 We [recommend using the new flavor format](https://yazi-rs.github.io/docs/flavors/overview/#why-flavor), but if you're still interested in themes, check out the [Themes](./themes.md) page.
