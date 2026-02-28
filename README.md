@@ -130,6 +130,10 @@ See <https://yazi-rs.github.io/docs/flavors/overview> for details.
 
 This is a flavor which uses terminal colors, so it works with any terminal theme.
 
+## [claude-inspired.yazi](https://github.com/rapidrabbit76/claude-inspired.yazi)
+
+<img src="https://raw.githubusercontent.com/rapidrabbit76/claude-inspired.yazi/main/preview.png" width="600" />
+
 ## Themes
 
 We [recommend using the new flavor format](https://yazi-rs.github.io/docs/flavors/overview/#why-flavor), but if you're still interested in themes, check out the [Themes](./themes.md) page.
