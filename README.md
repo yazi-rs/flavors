@@ -122,6 +122,10 @@ See <https://yazi-rs.github.io/docs/flavors/overview> for details.
 
 <img src="https://raw.githubusercontent.com/ZimCodes/yazi-flavors/refs/heads/main/obsidian-glow.yazi/preview.png" width="600" />
 
+## [lain.yazi](https://github.com/identityapproved/lain.yazi)
+
+<img src="https://raw.githubusercontent.com/identityapproved/lain.yazi/main/preview.png" width="600" />
+
 ## [base16.yazi](https://github.com/matt-dong-123/base16.yazi)
 
 This is a flavor which uses terminal colors, so it works with any terminal theme.
