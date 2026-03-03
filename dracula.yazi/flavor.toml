@@ -208,6 +208,7 @@ conds = [
 	{ if = "dummy", text = "", fg = "#ff5555" },
 
 	# Fallback
+	{ if = "dir & hovered", text = "", fg = "#bd93f9" },
 	{ if = "dir", text = "", fg = "#bd93f9" },
 	{ if = "exec", text = "", fg = "#50fa7b" },
 	{ if = "!dir", text = "", fg = "#f8f8f2" },
