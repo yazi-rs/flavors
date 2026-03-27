@@ -1,0 +1,239 @@
+# vim:fileencoding=utf-8:foldmethod=marker
+
+# IBM 3278 Phosphor Terminal
+# P1 phosphor green + P3 amber accent
+# Four green layers: bright ${primary} → standard ${text} → dim ${onSurface1} → deep ${surface}
+
+# : Manager {{{
+
+[mgr]
+cwd = { fg = "${primary}", bold = true }
+
+# Find
+find_keyword  = { fg = "${background}", bg = "${primary}", bold = true }
+find_position = { fg = "${secondary}", italic = true }
+
+# Marker
+marker_copied   = { fg = "${primary}", bg = "${surface}" }
+marker_cut      = { fg = "${tertiary}", bg = "${amberDark}" }
+marker_marked   = { fg = "${primary}", bg = "${surface}" }
+marker_selected = { fg = "${primary}", bg = "${surface1}" }
+
+# Count
+count_copied   = { fg = "${background}", bg = "${secondary}" }
+count_cut      = { fg = "${background}", bg = "${tertiary}" }
+count_selected = { fg = "${background}", bg = "${secondary}" }
+
+# Border
+border_symbol = "│"
+border_style  = { fg = "${surface2}" }
+
+# : }}}
+
+
+# : Tabs {{{
+
+[tabs]
+active   = { fg = "${background}", bg = "${primary}", bold = true }
+inactive = { fg = "${onSurface1}", bg = "${background}" }
+
+# : }}}
+
+
+# : Mode {{{
+
+[mode]
+
+normal_main = { fg = "${background}", bg = "${primary}", bold = true }
+normal_alt  = { fg = "${primary}", bg = "${surface}" }
+
+# Select mode
+select_main = { fg = "${background}", bg = "${tertiary}", bold = true }
+select_alt  = { fg = "${tertiary}", bg = "${amberDark}" }
+
+# Unset mode
+unset_main = { fg = "${background}", bg = "${red}", bold = true }
+unset_alt  = { fg = "${red}", bg = "${redDark}" }
+
+# : }}}
+
+
+# : Status bar {{{
+
+[status]
+# Permissions
+perm_sep   = { fg = "${onSurface}" }
+perm_type  = { fg = "${primary}", bold = true }
+perm_read  = { fg = "${secondary}" }
+perm_write = { fg = "${tertiary}" }
+perm_exec  = { fg = "${primary}", bold = true }
+
+# Progress
+progress_label  = { fg = "${primary}", bold = true }
+progress_normal = { fg = "${secondary}", bg = "${surface}" }
+progress_error  = { fg = "${red}", bg = "${redDark}" }
+
+# : }}}
+
+
+# : Pick {{{
+
+[pick]
+border   = { fg = "${onSurface1}" }
+active   = { fg = "${background}", bg = "${primary}", bold = true }
+inactive = { fg = "${secondary}" }
+
+# : }}}
+
+
+# : Input {{{
+
+[input]
+border   = { fg = "${onSurface1}" }
+title    = { fg = "${primary}", bold = true }
+value    = { fg = "${primary}" }
+selected = { fg = "${background}", bg = "${primary}" }
+
+# : }}}
+
+
+# : Completion {{{
+
+[cmp]
+border = { fg = "${onSurface1}" }
+
+# : }}}
+
+
+# : Tasks {{{
+
+[tasks]
+border  = { fg = "${onSurface1}" }
+title   = { fg = "${primary}", bold = true }
+hovered = { fg = "${background}", bg = "${primary}" }
+
+# : }}}
+
+
+# : Which {{{
+
+[which]
+mask            = { bg = "${background}" }
+cand            = { fg = "${primary}", bold = true }
+rest            = { fg = "${onSurface}" }
+desc            = { fg = "${secondary}" }
+separator       = "  "
+separator_style = { fg = "${onSurface}" }
+
+# : }}}
+
+
+# : Help {{{
+
+[help]
+on      = { fg = "${primary}", bold = true }
+run     = { fg = "${secondary}" }
+hovered = { fg = "${background}", bg = "${primary}", bold = true }
+footer  = { fg = "${onSurface1}" }
+
+# : }}}
+
+
+# : Confirm {{{
+
+[confirm]
+border        = { fg = "${onSurface1}" }
+title         = { fg = "${primary}", bold = true }
+content       = { fg = "${secondary}" }
+list          = { fg = "${secondary}" }
+button_active   = { fg = "${background}", bg = "${primary}", bold = true }
+button_inactive = { fg = "${onSurface1}", bg = "${surface}" }
+
+# : }}}
+
+
+# : Spotter {{{
+
+[spot]
+border   = { fg = "${onSurface1}" }
+title    = { fg = "${primary}" }
+tbl_col  = { fg = "${primary}" }
+tbl_cell = { fg = "${secondary}", bg = "${surface}" }
+
+# : }}}
+
+
+# : Notification {{{
+
+[notify]
+title_info  = { fg = "${primary}" }
+title_warn  = { fg = "${tertiary}" }
+title_error = { fg = "${red}" }
+
+# : }}}
+
+
+# : File-specific styles {{{
+
+[filetype]
+
+rules = [
+	# Directory — brightest, bold
+	{ url = "*/", fg = "${primary}", bold = true },
+	# Orphan symlink — red warning
+	{ is = "orphan", fg = "${red}", italic = true },
+	# Symlink — amber, "this is not the original"
+	{ is = "link", fg = "${tertiary}", italic = true },
+	# Executable — bright + underline
+	{ is = "exec", fg = "${primary}", underline = true },
+	# Image
+	{ mime = "image/*", fg = "${dimGreen}" },
+	# Media
+	{ mime = "{audio,video}/*", fg = "${dimGreen}" },
+	# Archive
+	{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "${darkGreen}" },
+	# Document
+	{ mime = "application/{pdf,doc,rtf}", fg = "${text}" },
+	# Virtual file system
+	{ mime = "vfs/{absent,stale}", fg = "${onSurface2}" },
+	# Fallback
+	{ url = "*", fg = "${accent}" },
+]
+
+# : }}}
+
+[icon]
+
+dirs = [
+	{ name = ".config", text = "", fg = "${secondary}" },
+	{ name = ".git", text = "", fg = "${primary}" },
+	{ name = ".github", text = "", fg = "${secondary}" },
+	{ name = ".npm", text = "", fg = "${secondary}" },
+	{ name = "Desktop", text = "", fg = "${accent}" },
+	{ name = "Development", text = "", fg = "${accent}" },
+	{ name = "Documents", text = "", fg = "${accent}" },
+	{ name = "Downloads", text = "", fg = "${accent}" },
+	{ name = "Library", text = "", fg = "${accent}" },
+	{ name = "Movies", text = "", fg = "${accent}" },
+	{ name = "Music", text = "", fg = "${accent}" },
+	{ name = "Pictures", text = "", fg = "${accent}" },
+	{ name = "Public", text = "", fg = "${accent}" },
+	{ name = "Videos", text = "", fg = "${accent}" },
+]
+conds = [
+	# Special files
+	{ if = "orphan", text = "", fg = "${red}" },
+	{ if = "link", text = "", fg = "${tertiary}" },
+	{ if = "block", text = "", fg = "${darkGreen}" },
+	{ if = "char", text = "", fg = "${darkGreen}" },
+	{ if = "fifo", text = "", fg = "${darkGreen}" },
+	{ if = "sock", text = "", fg = "${darkGreen}" },
+	{ if = "sticky", text = "", fg = "${darkGreen}" },
+	{ if = "dummy", text = "", fg = "${red}" },
+
+	# Fallback
+	{ if = "dir & hovered", text = "", fg = "${primary}" },
+	{ if = "dir", text = "", fg = "${secondary}" },
+	{ if = "exec", text = "", fg = "${primary}" },
+	{ if = "!dir", text = "", fg = "${accent}" },
+]
