@@ -94,9 +94,9 @@ See <https://yazi-rs.github.io/docs/flavors/overview> for details.
 
 <img src="https://raw.githubusercontent.com/AdithyanA2005/nord.yazi/refs/heads/main/preview.png" width="600" />
 
-## [synthwave84.yazi](https://github.com/Miuzarte/synthwave84.yazi)
+## [synthwave84.yazi](https://github.com/CFY98/synthwave84.yazi)
 
-<img src="https://raw.githubusercontent.com/Miuzarte/synthwave84.yazi/refs/heads/main/preview.png" width="600" />
+<img src="https://raw.githubusercontent.com/CFY98/synthwave84.yazi/refs/heads/main/preview.png" width="600" />
 
 ## [bluloco-dark.yazi](https://github.com/hankertrix/bluloco-yazi/tree/main/bluloco-dark.yazi)
 
