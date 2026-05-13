@@ -138,6 +138,10 @@ This is a flavor which uses terminal colors, so it works with any terminal theme
 
 <img src="https://raw.githubusercontent.com/AdmiralBarbarossa/thinkpad-red-oled.yazi/main/preview.png" width="600" />
 
+## [kanagawa-paper.yazi](https://github.com/melindachang/kanagawa-paper.yazi)
+
+<img src="https://raw.githubusercontent.com/melindachang/kanagawa-paper.yazi/main/preview.png" width="600">
+
 ## Themes
 
 We [recommend using the new flavor format](https://yazi-rs.github.io/docs/flavors/overview/#why-flavor), but if you're still interested in themes, check out the [Themes](./themes.md) page.
