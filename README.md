@@ -48,7 +48,7 @@ See <https://yazi-rs.github.io/docs/flavors/overview> for details.
 
 ## [gruvbox-dark.yazi](https://github.com/bennyyip/gruvbox-dark.yazi)
 
-<img src="https://raw.githubusercontent.com/bennyyip/gruvbox-dark.yazi/main/preview.png" width="600" />
+<img src="https://raw.githubusercontent.com/bennyyip/i/refs/heads/main/yazi-gruvbox-dark.png" width="600" />
 
 ##[gruvbox-light.yazi](https://github.com/Sh00Fly/gruvbox-light.yazi)
 
