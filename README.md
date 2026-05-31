@@ -50,6 +50,10 @@ See <https://yazi-rs.github.io/docs/flavors/overview> for details.
 
 <img src="https://raw.githubusercontent.com/bennyyip/gruvbox-dark.yazi/main/preview.png" width="600" />
 
+##[gruvbox-light.yazi](https://github.com/Sh00Fly/gruvbox-light.yazi)
+
+<img src="https://raw.githubusercontent.com/Sh00Fly/gruvbox-light.yazi/main/preview.png" width="600" />
+
 ## [gruvbox-material.yazi](https://github.com/matt-dong-123/gruvbox-material.yazi)
 
 <img src="https://raw.githubusercontent.com/matt-dong-123/gruvbox-material.yazi/main/preview.png" width="600" />
