@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>name</key>
+    <string>IBM Phosphor</string>
+    <key>semanticClass</key>
+    <string>theme.dark.ibm-phosphor</string>
+    <key>uuid</key>
+    <string>a3c7e891-0b2d-4f1a-9c3e-8d5f6a7b9c0e</string>
+    <key>author</key>
+    <string>IBM Phosphor Theme</string>
+    <key>colorSpaceName</key>
+    <string>sRGB</string>
+    <key>settings</key>
+    <array>
+      <!-- ── 全局 ─────────────────────────────────── -->
+      <dict>
+        <key>settings</key>
+        <dict>
+          <key>background</key>
+          <string>#0a0a0a</string>
+          <key>foreground</key>
+          <string>#1a9a1a</string>
+          <key>caret</key>
+          <string>#33ff33</string>
+          <key>lineHighlight</key>
+          <string>#0d2b0d</string>
+          <key>misspelling</key>
+          <string>#ff5555</string>
+          <key>accent</key>
+          <string>#33ff33</string>
+          <key>selection</key>
+          <string>#1a4a1a40</string>
+          <key>activeGuide</key>
+          <string>#1a4a1a</string>
+          <key>findHighlight</key>
+          <string>#0d3a0d</string>
+          <key>gutterForeground</key>
+          <string>#0d5a0d</string>
+        </dict>
+      </dict>
+
+      <!-- ── Markdown 标题 ── 最高亮度，模拟 IBM 终端字段标签 -->
+      <!-- H1 — 满功率磷光，像终端顶部的系统标识 -->
+      <dict>
+        <key>name</key>
+        <string>Heading 1</string>
+        <key>scope</key>
+        <string>markup.heading.1, heading.1.markdown, entity.name.section.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#33ff33</string>
+          <key>fontStyle</key>
+          <string>bold underline</string>
+        </dict>
+      </dict>
+      <!-- H2 — 略低一档，子系统标题 -->
+      <dict>
+        <key>name</key>
+        <string>Heading 2</string>
+        <key>scope</key>
+        <string>markup.heading.2, heading.2.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#33ff33</string>
+          <key>fontStyle</key>
+          <string>bold</string>
+        </dict>
+      </dict>
+      <!-- H3-H6 — 再降一层 -->
+      <dict>
+        <key>name</key>
+        <string>Heading 3+</string>
+        <key>scope</key>
+        <string>markup.heading, heading.3.markdown, heading.4.markdown, heading.5.markdown, heading.6.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#22cc22</string>
+          <key>fontStyle</key>
+          <string>bold</string>
+        </dict>
+      </dict>
+      <!-- 标题的 # 符号 — 暗绿，像终端的字段定界符 -->
+      <dict>
+        <key>name</key>
+        <string>Heading Punctuation</string>
+        <key>scope</key>
+        <string>punctuation.definition.heading.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#0d5a0d</string>
+          <key>fontStyle</key>
+          <string>bold</string>
+        </dict>
+      </dict>
+
+      <!-- ── Markdown 正文格式 ─────────────────── -->
+      <!-- 粗体 — 高亮强调，像终端的高亮字段 -->
+      <dict>
+        <key>name</key>
+        <string>Bold</string>
+        <key>scope</key>
+        <string>markup.bold</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#33ff33</string>
+          <key>fontStyle</key>
+          <string>bold</string>
+        </dict>
+      </dict>
+      <!-- 斜体 — 操作员备注风格 -->
+      <dict>
+        <key>name</key>
+        <string>Italic</string>
+        <key>scope</key>
+        <string>markup.italic</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#22cc22</string>
+          <key>fontStyle</key>
+          <string>italic</string>
+        </dict>
+      </dict>
+      <!-- 粗斜体 -->
+      <dict>
+        <key>name</key>
+        <string>Bold Italic</string>
+        <key>scope</key>
+        <string>markup.bold markup.italic, markup.italic markup.bold</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#33ff33</string>
+          <key>fontStyle</key>
+          <string>bold italic</string>
+        </dict>
+      </dict>
+      <!-- 删除线 -->
+      <dict>
+        <key>name</key>
+        <string>Strikethrough</string>
+        <key>scope</key>
+        <string>markup.strikethrough</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#0d5a0d</string>
+        </dict>
+      </dict>
+
+      <!-- ── Markdown 链接 ── 琥珀色，像终端的可操作字段 -->
+      <dict>
+        <key>name</key>
+        <string>Link Text</string>
+        <key>scope</key>
+        <string>string.other.link, meta.link.inline.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ffaa00</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Link URL</string>
+        <key>scope</key>
+        <string>markup.underline.link, markup.underline.link.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#997722</string>
+          <key>fontStyle</key>
+          <string>underline</string>
+        </dict>
+      </dict>
+      <!-- 链接括号 -->
+      <dict>
+        <key>name</key>
+        <string>Link Punctuation</string>
+        <key>scope</key>
+        <string>punctuation.definition.link, punctuation.definition.metadata.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#806515</string>
+        </dict>
+      </dict>
+      <!-- 图片 — 比链接略亮 -->
+      <dict>
+        <key>name</key>
+        <string>Image</string>
+        <key>scope</key>
+        <string>meta.image.inline.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ffaa00</string>
+          <key>fontStyle</key>
+          <string>italic</string>
+        </dict>
+      </dict>
+
+      <!-- ── Markdown 代码 ── 像终端的数据输入区域 -->
+      <!-- 行内代码 -->
+      <dict>
+        <key>name</key>
+        <string>Inline Code</string>
+        <key>scope</key>
+        <string>markup.raw.inline, markup.raw.inline.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#22aa22</string>
+          <key>background</key>
+          <string>#0d1f0d</string>
+        </dict>
+      </dict>
+      <!-- 代码块 -->
+      <dict>
+        <key>name</key>
+        <string>Code Block</string>
+        <key>scope</key>
+        <string>markup.raw.block, markup.raw.block.markdown, markup.fenced_code.block.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#22aa22</string>
+          <key>background</key>
+          <string>#0d1f0d</string>
+        </dict>
+      </dict>
+      <!-- 代码块围栏 ``` -->
+      <dict>
+        <key>name</key>
+        <string>Code Fence</string>
+        <key>scope</key>
+        <string>punctuation.definition.raw.markdown, markup.fenced_code.block.markdown punctuation</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#0d5a0d</string>
+        </dict>
+      </dict>
+
+      <!-- ── Markdown 列表 ── 标记符暗，内容正常 -->
+      <dict>
+        <key>name</key>
+        <string>List Bullet</string>
+        <key>scope</key>
+        <string>punctuation.definition.list_item.markdown, markup.list.numbered.bullet.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#33ff33</string>
+          <key>fontStyle</key>
+          <string>bold</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>List Content</string>
+        <key>scope</key>
+        <string>markup.list</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#1a9a1a</string>
+        </dict>
+      </dict>
+
+      <!-- ── Markdown 引用 ── 像终端的系统消息 -->
+      <dict>
+        <key>name</key>
+        <string>Blockquote</string>
+        <key>scope</key>
+        <string>markup.quote, markup.quote.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#168816</string>
+          <key>fontStyle</key>
+          <string>italic</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Blockquote Punctuation</string>
+        <key>scope</key>
+        <string>punctuation.definition.quote.begin.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#0d5a0d</string>
+          <key>fontStyle</key>
+          <string>bold</string>
+        </dict>
+      </dict>
+
+      <!-- ── Markdown 分割线 ─────────────────── -->
+      <dict>
+        <key>name</key>
+        <string>Separator</string>
+        <key>scope</key>
+        <string>meta.separator.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#0d5a0d</string>
+        </dict>
+      </dict>
+
+      <!-- ── Markdown 格式符号 ** _ ` ─────────── -->
+      <dict>
+        <key>name</key>
+        <string>Markup Punctuation</string>
+        <key>scope</key>
+        <string>punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, punctuation.definition.raw.markdown, punctuation.definition.strikethrough.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#0d5a0d</string>
+        </dict>
+      </dict>
+
+      <!-- ── 通用代码高亮（代码块内） ──────────── -->
+      <dict>
+        <key>name</key>
+        <string>Comment</string>
+        <key>scope</key>
+        <string>comment, punctuation.definition.comment</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#0d5a0d</string>
+          <key>fontStyle</key>
+          <string>italic</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>String</string>
+        <key>scope</key>
+        <string>string, string.quoted</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#22cc22</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Number</string>
+        <key>scope</key>
+        <string>constant.numeric</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#33ff33</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Constant</string>
+        <key>scope</key>
+        <string>constant, constant.language, constant.character</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#33ff33</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Keyword</string>
+        <key>scope</key>
+        <string>keyword, keyword.control</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#33ff33</string>
+          <key>fontStyle</key>
+          <string>bold</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Storage</string>
+        <key>scope</key>
+        <string>storage, storage.type, storage.modifier</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#22aa22</string>
+          <key>fontStyle</key>
+          <string>bold</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Function</string>
+        <key>scope</key>
+        <string>entity.name.function, support.function, meta.function-call</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#33ff33</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Class</string>
+        <key>scope</key>
+        <string>entity.name.class, entity.name.type, support.class, support.type</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#22cc22</string>
+          <key>fontStyle</key>
+          <string>bold</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Variable</string>
+        <key>scope</key>
+        <string>variable, variable.parameter, variable.other</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#1aaa1a</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Tag</string>
+        <key>scope</key>
+        <string>entity.name.tag</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#22aa22</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Attribute</string>
+        <key>scope</key>
+        <string>entity.other.attribute-name</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#1a9a1a</string>
+          <key>fontStyle</key>
+          <string>italic</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Punctuation</string>
+        <key>scope</key>
+        <string>punctuation</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#168816</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Operator</string>
+        <key>scope</key>
+        <string>keyword.operator</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#22aa22</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Escape</string>
+        <key>scope</key>
+        <string>constant.character.escape</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ffaa00</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Invalid</string>
+        <key>scope</key>
+        <string>invalid, invalid.illegal</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ff5555</string>
+          <key>fontStyle</key>
+          <string>bold underline</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Diff Added</string>
+        <key>scope</key>
+        <string>markup.inserted</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#33ff33</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Diff Deleted</string>
+        <key>scope</key>
+        <string>markup.deleted</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ff5555</string>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>
