@@ -146,6 +146,14 @@ This is a flavor which uses terminal colors, so it works with any terminal theme
 
 <img src="https://raw.githubusercontent.com/melindachang/kanagawa-paper.yazi/main/preview.png" width="600">
 
+## [Aurora Dawn](https://github.com/kshawkat/aurora-dawn.yazi)
+
+<img src="https://raw.githubusercontent.com/kshawkat/aurora-dawn.yazi/refs/heads/main/preview.png" width="600" />
+
+## [Aurora Storm](https://github.com/kshawkat/aurora-storm.yazi)
+
+<img src="https://raw.githubusercontent.com/kshawkat/aurora-storm.yazi/refs/heads/main/preview.png" width="600" />
+
 ## Themes
 
 We [recommend using the new flavor format](https://yazi-rs.github.io/docs/flavors/overview/#why-flavor), but if you're still interested in themes, check out the [Themes](./themes.md) page.
