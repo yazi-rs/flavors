@@ -154,6 +154,10 @@ This is a flavor which uses terminal colors, so it works with any terminal theme
 
 <img src="https://raw.githubusercontent.com/kshawkat/aurora-storm.yazi/refs/heads/main/preview.png" width="600" />
 
+## [Dimidium](https://github.com/Raideeen/dimidium)
+
+<img src="https://raw.githubusercontent.com/Raideeen/dimidium/refs/heads/main/preview.png" width="600" />
+
 ## Themes
 
 We [recommend using the new flavor format](https://yazi-rs.github.io/docs/flavors/overview/#why-flavor), but if you're still interested in themes, check out the [Themes](./themes.md) page.
