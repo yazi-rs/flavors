@@ -154,7 +154,7 @@ This is a flavor which uses terminal colors, so it works with any terminal theme
 
 <img src="https://raw.githubusercontent.com/kshawkat/aurora-storm.yazi/refs/heads/main/preview.png" width="600" />
 
-## [Dimidium.yazi](https://github.com/Raideeen/dimidium)
+## [Dimidium](https://github.com/Raideeen/dimidium)
 
 <img src="https://raw.githubusercontent.com/Raideeen/dimidium.yazi/refs/heads/main/preview.png" width="600" />
 
