@@ -114,7 +114,7 @@ hovered = { fg = "${accent}", bold = true }
 # : Which {{{
 
 [which]
-mask            = { bg = "${surface}" }
+border          = { fg = "${primary}" }
 cand            = { fg = "${secondary}" }
 rest            = { fg = "${onSurface2}" }
 desc            = { fg = "${accent}" }
@@ -162,13 +162,13 @@ title_error = { fg = "${red}" }
 
 rules = [
 	# Image
-	{ mime = "image/*", fg = "${secondary}" },
+	{ mime = "**/image/*", fg = "${secondary}" },
 	# Media
-	{ mime = "{audio,video}/*", fg = "${yellow}" },
+	{ mime = "**/{audio,video}/*", fg = "${yellow}" },
 	# Archive
-	{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "${accent}" },
+	{ mime = "**/application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "${accent}" },
 	# Document
-	{ mime = "application/{pdf,doc,rtf}", fg = "${green}" },
+	{ mime = "**/application/{pdf,doc,rtf}", fg = "${green}" },
 	# Virtual file system
 	{ mime = "vfs/{absent,stale}", fg = "${onSurface2}" },
 	# Fallback

@@ -114,7 +114,7 @@ hovered = { fg = "#ea76cb", bold = true }
 # : Which {{{
 
 [which]
-mask            = { bg = "#ccd0da" }
+border          = { fg = "#1e66f5" }
 cand            = { fg = "#179299" }
 rest            = { fg = "#7c7f93" }
 desc            = { fg = "#ea76cb" }
@@ -162,13 +162,13 @@ title_error = { fg = "#d20f39" }
 
 rules = [
 	# Image
-	{ mime = "image/*", fg = "#179299" },
+	{ mime = "**/image/*", fg = "#179299" },
 	# Media
-	{ mime = "{audio,video}/*", fg = "#df8e1d" },
+	{ mime = "**/{audio,video}/*", fg = "#df8e1d" },
 	# Archive
-	{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#ea76cb" },
+	{ mime = "**/application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#ea76cb" },
 	# Document
-	{ mime = "application/{pdf,doc,rtf}", fg = "#40a02b" },
+	{ mime = "**/application/{pdf,doc,rtf}", fg = "#40a02b" },
 	# Virtual file system
 	{ mime = "vfs/{absent,stale}", fg = "#7c7f93" },
 	# Fallback
