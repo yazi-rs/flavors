@@ -50,7 +50,7 @@ See <https://yazi-rs.github.io/docs/flavors/overview> for details.
 
 <img src="https://raw.githubusercontent.com/bennyyip/i/refs/heads/main/yazi-gruvbox-dark.png" width="600" />
 
-##[gruvbox-light.yazi](https://github.com/Sh00Fly/gruvbox-light.yazi)
+## [gruvbox-light.yazi](https://github.com/Sh00Fly/gruvbox-light.yazi)
 
 <img src="https://raw.githubusercontent.com/Sh00Fly/gruvbox-light.yazi/main/preview.png" width="600" />
 
@@ -157,6 +157,10 @@ This is a flavor which uses terminal colors, so it works with any terminal theme
 ## [Dimidium](https://github.com/Raideeen/dimidium.yazi)
 
 <img src="https://raw.githubusercontent.com/Raideeen/dimidium.yazi/refs/heads/main/preview.png" width="600" />
+
+## [Sequoia](https://github.com/cisco336/sequoia.yazi)
+
+<img src="https://github.com/cisco336/sequoia.yazi/blob/main/preview.png" width="600" />
 
 ## Themes
 
