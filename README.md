@@ -162,6 +162,10 @@ This is a flavor which uses terminal colors, so it works with any terminal theme
 
 <img src="https://github.com/cisco336/sequoia.yazi/blob/main/preview.png" width="600" />
 
+## [cyberpunk.yazi](https://github.com/ural89/cyberpunk.yazi)
+
+<img src="https://raw.githubusercontent.com/ural89/cyberpunk.yazi/master/preview.png" width="600" />
+
 ## Themes
 
 We [recommend using the new flavor format](https://yazi-rs.github.io/docs/flavors/overview/#why-flavor), but if you're still interested in themes, check out the [Themes](./themes.md) page.
