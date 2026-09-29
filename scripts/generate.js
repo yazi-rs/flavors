@@ -5,6 +5,37 @@ import { fileURLToPath } from "node:url"
 const __dirname = fileURLToPath(new URL(".", import.meta.url))
 
 const VARIANTS = {
+	"IBM Phosphor": {
+		text: "#22cc22",
+		background: "#0a0a0a",
+
+		primary: "#33ff33",
+		secondary: "#22aa22",
+		tertiary: "#ffaa00",
+		accent: "#1a9a1a",
+
+		surface: "#0d2b0d",
+		surface1: "#142814",
+		surface2: "#1a4a1a",
+
+		onSurface: "#0d3a0d",
+		onSurface1: "#1a6e1a",
+		onSurface2: "#0d5a0d",
+
+		red: "#ff5555",
+		green: "#33ff33",
+		blue: "#33ff33",
+		yellow: "#ffaa00",
+
+		dimGreen: "#1aaa1a",
+		darkGreen: "#168816",
+		amberDark: "#1a1400",
+		redDark: "#1a0a0a",
+
+		_template: "./ibm-phosphor.template.toml",
+		_tmtheme: "./ibm-phosphor.tmtheme.xml",
+		_tmthemeLicense: "./ibm-phosphor.LICENSE-tmtheme",
+	},
 	"Dracula": {
 		text: "#f8f8f2",
 		background: "#282a36",
@@ -146,7 +177,9 @@ for (const [name, colors] of Object.entries(VARIANTS)) {
 	}
 
 	// flavor.toml
-	let s = template
+	let s = colors._template
+		? await readFile(join(__dirname, colors._template), "utf8")
+		: template
 	for (const [name, color] of Object.entries(colors)) {
 		s = s.replaceAll(`\${${name}}`, color)
 	}
@@ -162,8 +195,14 @@ for (const [name, colors] of Object.entries(VARIANTS)) {
 	)
 
 	// tmtheme.xml
-	await writeFile(join(wd, "tmtheme.xml"), await fetch(colors._tmtheme).then(r => r.text()))
+	const tmtheme = colors._tmtheme.startsWith("./")
+		? await readFile(join(__dirname, colors._tmtheme), "utf8")
+		: await fetch(colors._tmtheme).then(r => r.text())
+	await writeFile(join(wd, "tmtheme.xml"), tmtheme)
 
 	// LICENSE-tmtheme
-	await writeFile(join(wd, "LICENSE-tmtheme"), await fetch(colors._tmthemeLicense).then(r => r.text()))
+	const tmthemeLicense = colors._tmthemeLicense.startsWith("./")
+		? await readFile(join(__dirname, colors._tmthemeLicense), "utf8")
+		: await fetch(colors._tmthemeLicense).then(r => r.text())
+	await writeFile(join(wd, "LICENSE-tmtheme"), tmthemeLicense)
 }
