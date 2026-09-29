@@ -136,6 +136,14 @@ const VARIANTS = {
 const template = await readFile(join(__dirname, "./template.toml"), "utf8")
 const readme = await readFile(join(__dirname, "./README.md"), "utf8")
 
+// Only allow HTTPS URLs to prevent unencrypted network interception (CWE-319).
+function fetchSecure(url) {
+	if (new URL(url).protocol !== "https:") {
+		throw new Error(`Refusing to fetch non-HTTPS URL: ${url}`)
+	}
+	return fetch(url)
+}
+
 for (const [name, colors] of Object.entries(VARIANTS)) {
 	const lowerName = name.toLowerCase().replace(" ", "-")
 	const wd = join(__dirname, `../${lowerName}.yazi`)
@@ -161,9 +169,11 @@ for (const [name, colors] of Object.entries(VARIANTS)) {
 			.replaceAll("${variant_cap}", name),
 	)
 
-	// tmtheme.xml
-	await writeFile(join(wd, "tmtheme.xml"), await fetch(colors._tmtheme).then(r => r.text()))
+	// tmtheme.xml (fetched over an HTTPS-only transport to avoid CWE-319 interception risk)
+	const tmthemeResp = await fetchSecure(colors._tmtheme)
+	await writeFile(join(wd, "tmtheme.xml"), await tmthemeResp.text())
 
-	// LICENSE-tmtheme
-	await writeFile(join(wd, "LICENSE-tmtheme"), await fetch(colors._tmthemeLicense).then(r => r.text()))
+	// LICENSE-tmtheme (fetched over an HTTPS-only transport to avoid CWE-319 interception risk)
+	const licenseResp = await fetchSecure(colors._tmthemeLicense)
+	await writeFile(join(wd, "LICENSE-tmtheme"), await licenseResp.text())
 }
