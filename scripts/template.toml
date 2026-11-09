@@ -88,6 +88,7 @@ inactive = {}
 border   = { fg = "${primary}" }
 title    = {}
 value    = {}
+hint     = { fg = "${onSurface1}", italic = true }
 selected = { reversed = true }
 
 # : }}}

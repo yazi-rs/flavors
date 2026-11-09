@@ -88,6 +88,7 @@ inactive = {}
 border   = { fg = "#1e66f5" }
 title    = {}
 value    = {}
+hint     = { fg = "#8c8fa1", italic = true }
 selected = { reversed = true }
 
 # : }}}
