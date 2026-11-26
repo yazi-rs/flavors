@@ -162,6 +162,12 @@ This is a flavor which uses terminal colors, so it works with any terminal theme
 
 <img src="https://github.com/cisco336/sequoia.yazi/blob/main/preview.png" width="600" />
 
+## [Heritage Themes](https://github.com/heritage-themes/yazi-flavors)
+
+65 dark and light flavors drawn from the colour traditions of different cultures, such as Punjab's phulkari embroidery, Japanese indigo dyeing and Chinese ink painting. Install one with `ya pkg add heritage-themes/yazi-flavors:<flavor>`; the repository lists every flavor.
+
+<img src="https://raw.githubusercontent.com/heritage-themes/yazi-flavors/refs/heads/master/heritage-punjab-phulkari-dark.yazi/preview.png" width="600" />
+
 ## Themes
 
 We [recommend using the new flavor format](https://yazi-rs.github.io/docs/flavors/overview/#why-flavor), but if you're still interested in themes, check out the [Themes](./themes.md) page.
